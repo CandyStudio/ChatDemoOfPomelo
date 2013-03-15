@@ -53643,3 +53643,334 @@ info: socket.io started
 
 [2013-03-15 10:27:39.668] [INFO] console - [32m[2013-03-15 10:27:39.668] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-2" finish start
 
+[2013-03-15 10:30:13.433] [INFO] console - { username: '11111',
+  password: '1111',
+  __route__: 'gate.gateHandler.login' }
+
+[2013-03-15 10:30:13.434] [INFO] console - query :[object Arguments]
+
+[2013-03-15 10:30:13.491] [INFO] console - null { domain: null,
+  _events: null,
+  _maxListeners: 10,
+  config: 
+   { host: '127.0.0.1',
+     port: 3306,
+     socketPath: undefined,
+     user: 'root',
+     password: '123456',
+     database: 'Chatdemo',
+     insecureAuth: false,
+     supportBigNumbers: false,
+     debug: undefined,
+     timezone: 'local',
+     flags: '',
+     queryFormat: undefined,
+     pool: undefined,
+     typeCast: true,
+     maxPacketSize: 0,
+     charsetNumber: 33,
+     clientFlags: 193487 },
+  _socket: undefined,
+  _protocol: 
+   { domain: null,
+     _events: null,
+     _maxListeners: 10,
+     readable: true,
+     writable: true,
+     _config: 
+      { host: '127.0.0.1',
+        port: 3306,
+        socketPath: undefined,
+        user: 'root',
+        password: '123456',
+        database: 'Chatdemo',
+        insecureAuth: false,
+        supportBigNumbers: false,
+        debug: undefined,
+        timezone: 'local',
+        flags: '',
+        queryFormat: undefined,
+        pool: undefined,
+        typeCast: true,
+        maxPacketSize: 0,
+        charsetNumber: 33,
+        clientFlags: 193487 },
+     _connection: [Circular],
+     _callback: null,
+     _fatalError: null,
+     _quitSequence: null,
+     _handshakeSequence: null,
+     _destroyed: false,
+     _queue: [],
+     _handshakeInitializationPacket: null,
+     _parser: 
+      { _supportBigNumbers: false,
+        _buffer: <Buffer >,
+        _longPacketBuffers: [],
+        _offset: 0,
+        _packetEnd: null,
+        _packetHeader: null,
+        _onPacket: [Function],
+        _nextPacketNumber: 0,
+        _encoding: 'utf-8',
+        _paused: false } },
+  _connectCalled: false }
+
+[2013-03-15 10:30:13.491] [INFO] console - 没错
+
+[2013-03-15 10:30:13.496] [INFO] console - 到这了
+
+[2013-03-15 10:30:13.574] [INFO] console - [31m[2013-03-15 10:30:13.573] [ERROR] /node_modules/pomelo/lib/server/server.js - [39mfail to forward message:TypeError: Cannot call method 'forwardMessage' of undefined
+    at doForward (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/server/server.js:187:50)
+    at pro.handle (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/server/server.js:69:5)
+    at Component.handle (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+    at bindEvents (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/components/connector.js:107:5)
+    at EventEmitter.emit (events.js:96:17)
+    at Socket.state (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/connectors/siosocket.js:34:10)
+    at Socket.EventEmitter.emit [as $emit] (events.js:96:17)
+    at SocketNamespace.handlePacket (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/socket.io/lib/namespace.js:353:20)
+    at Manager.onClientMessage (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/socket.io/lib/manager.js:488:38)
+
+[2013-03-15 10:31:06.779] [INFO] console - { username: '11111',
+  password: '1111',
+  __route__: 'gate.gateHandler.login' }
+
+[2013-03-15 10:31:06.779] [INFO] console - query :[object Arguments]
+
+[2013-03-15 10:31:06.781] [INFO] console - null { domain: null,
+  _events: null,
+  _maxListeners: 10,
+  config: 
+   { host: '127.0.0.1',
+     port: 3306,
+     socketPath: undefined,
+     user: 'root',
+     password: '123456',
+     database: 'Chatdemo',
+     insecureAuth: false,
+     supportBigNumbers: false,
+     debug: undefined,
+     timezone: 'local',
+     flags: '',
+     queryFormat: undefined,
+     pool: undefined,
+     typeCast: true,
+     maxPacketSize: 0,
+     charsetNumber: 33,
+     clientFlags: 193487 },
+  _socket: undefined,
+  _protocol: 
+   { domain: null,
+     _events: null,
+     _maxListeners: 10,
+     readable: true,
+     writable: true,
+     _config: 
+      { host: '127.0.0.1',
+        port: 3306,
+        socketPath: undefined,
+        user: 'root',
+        password: '123456',
+        database: 'Chatdemo',
+        insecureAuth: false,
+        supportBigNumbers: false,
+        debug: undefined,
+        timezone: 'local',
+        flags: '',
+        queryFormat: undefined,
+        pool: undefined,
+        typeCast: true,
+        maxPacketSize: 0,
+        charsetNumber: 33,
+        clientFlags: 193487 },
+     _connection: [Circular],
+     _callback: null,
+     _fatalError: null,
+     _quitSequence: null,
+     _handshakeSequence: null,
+     _destroyed: false,
+     _queue: [],
+     _handshakeInitializationPacket: null,
+     _parser: 
+      { _supportBigNumbers: false,
+        _buffer: <Buffer >,
+        _longPacketBuffers: [],
+        _offset: 0,
+        _packetEnd: null,
+        _packetHeader: null,
+        _onPacket: [Function],
+        _nextPacketNumber: 0,
+        _encoding: 'utf-8',
+        _paused: false } },
+  _connectCalled: false }
+没错
+
+[2013-03-15 10:31:06.783] [INFO] console - 到这了
+
+[2013-03-15 10:31:06.847] [INFO] console - [31m[2013-03-15 10:31:06.846] [ERROR] /node_modules/pomelo/lib/server/server.js - [39mfail to forward message:TypeError: Cannot call method 'forwardMessage' of undefined
+    at doForward (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/server/server.js:187:50)
+    at pro.handle (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/server/server.js:69:5)
+    at Component.handle (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+    at bindEvents (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/components/connector.js:107:5)
+    at EventEmitter.emit (events.js:96:17)
+    at Socket.state (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/connectors/siosocket.js:34:10)
+    at Socket.EventEmitter.emit [as $emit] (events.js:96:17)
+    at SocketNamespace.handlePacket (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/socket.io/lib/namespace.js:353:20)
+    at Manager.onClientMessage (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/socket.io/lib/manager.js:488:38)
+
+[2013-03-15 10:33:26.969] [INFO] console - { username: '11111',
+  password: '1111',
+  __route__: 'gate.gateHandler.login' }
+
+[2013-03-15 10:33:26.970] [INFO] console - query :[object Arguments]
+
+[2013-03-15 10:33:26.970] [INFO] console - null { domain: null,
+  _events: null,
+  _maxListeners: 10,
+  config: 
+   { host: '127.0.0.1',
+     port: 3306,
+     socketPath: undefined,
+     user: 'root',
+     password: '123456',
+     database: 'Chatdemo',
+     insecureAuth: false,
+     supportBigNumbers: false,
+     debug: undefined,
+     timezone: 'local',
+     flags: '',
+     queryFormat: undefined,
+     pool: undefined,
+     typeCast: true,
+     maxPacketSize: 0,
+     charsetNumber: 33,
+     clientFlags: 193487 },
+  _socket: undefined,
+  _protocol: 
+   { domain: null,
+     _events: null,
+     _maxListeners: 10,
+     readable: true,
+     writable: true,
+     _config: 
+      { host: '127.0.0.1',
+        port: 3306,
+        socketPath: undefined,
+        user: 'root',
+        password: '123456',
+        database: 'Chatdemo',
+        insecureAuth: false,
+        supportBigNumbers: false,
+        debug: undefined,
+        timezone: 'local',
+        flags: '',
+        queryFormat: undefined,
+        pool: undefined,
+        typeCast: true,
+        maxPacketSize: 0,
+        charsetNumber: 33,
+        clientFlags: 193487 },
+     _connection: [Circular],
+     _callback: null,
+     _fatalError: null,
+     _quitSequence: null,
+     _handshakeSequence: null,
+     _destroyed: false,
+     _queue: [],
+     _handshakeInitializationPacket: null,
+     _parser: 
+      { _supportBigNumbers: false,
+        _buffer: <Buffer >,
+        _longPacketBuffers: [],
+        _offset: 0,
+        _packetEnd: null,
+        _packetHeader: null,
+        _onPacket: [Function],
+        _nextPacketNumber: 0,
+        _encoding: 'utf-8',
+        _paused: false } },
+  _connectCalled: false }
+
+[2013-03-15 10:33:26.971] [INFO] console - 没错
+
+[2013-03-15 10:33:26.973] [INFO] console - 到这了
+
+[2013-03-15 10:33:27.033] [INFO] console - 调用getChannels[object Object]
+
+[2013-03-15 10:33:27.033] [INFO] console - query :[object Arguments]
+
+[2013-03-15 10:33:27.090] [INFO] console - null { domain: null,
+  _events: null,
+  _maxListeners: 10,
+  config: 
+   { host: '127.0.0.1',
+     port: 3306,
+     socketPath: undefined,
+     user: 'root',
+     password: '123456',
+     database: 'Chatdemo',
+     insecureAuth: false,
+     supportBigNumbers: false,
+     debug: undefined,
+     timezone: 'local',
+     flags: '',
+     queryFormat: undefined,
+     pool: undefined,
+     typeCast: true,
+     maxPacketSize: 0,
+     charsetNumber: 33,
+     clientFlags: 193487 },
+  _socket: undefined,
+  _protocol: 
+   { domain: null,
+     _events: null,
+     _maxListeners: 10,
+     readable: true,
+     writable: true,
+     _config: 
+      { host: '127.0.0.1',
+        port: 3306,
+        socketPath: undefined,
+        user: 'root',
+        password: '123456',
+        database: 'Chatdemo',
+        insecureAuth: false,
+        supportBigNumbers: false,
+        debug: undefined,
+        timezone: 'local',
+        flags: '',
+        queryFormat: undefined,
+        pool: undefined,
+        typeCast: true,
+        maxPacketSize: 0,
+        charsetNumber: 33,
+        clientFlags: 193487 },
+     _connection: [Circular],
+     _callback: null,
+     _fatalError: null,
+     _quitSequence: null,
+     _handshakeSequence: null,
+     _destroyed: false,
+     _queue: [],
+     _handshakeInitializationPacket: null,
+     _parser: 
+      { _supportBigNumbers: false,
+        _buffer: <Buffer >,
+        _longPacketBuffers: [],
+        _offset: 0,
+        _packetEnd: null,
+        _packetHeader: null,
+        _onPacket: [Function],
+        _nextPacketNumber: 0,
+        _encoding: 'utf-8',
+        _paused: false } },
+  _connectCalled: false }
+
+[2013-03-15 10:33:27.090] [INFO] console - 没错
+
+[2013-03-15 10:33:27.094] [INFO] console - 到这了
+
+[2013-03-15 10:33:27.094] [INFO] console - session bind[object Object]
+

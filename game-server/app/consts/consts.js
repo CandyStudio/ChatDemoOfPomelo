@@ -14,4 +14,5 @@ module.exports = {
 		ALREADYHASUSER:2
 	},
 	GUESTPASSWORD:'123456'
+	
 };
