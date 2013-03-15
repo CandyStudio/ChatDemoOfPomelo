@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title> register and login </title>
+        <script src="js/lib/jquery-1.8.0.min.js"></script>
+        <script src="js/lib/socket.io.js"></script>
+        <script src="js/lib/pomeloclient.js"></script>
+        <script src="js/registerClient.js"></script>
+        <script src="js/pop.js"></script>
+    </head>
+    
+    <body>
+    	<div id="registerView">
+            	<div> Username </div>
+				<div>
+				    <input id="reg-name" type="text" /> 
+				</div>
+				<div> Password </div>
+				<div>x
+				    <input id="reg-pwd" type="password" /> 
+				</div>
+				<div> Confirm Password </div>
+				<div>
+				    <input id="reg-cpwd" type="password" / > 
+				</div>
+				<div> Role Select </div>
+				<div>
+					<select id="role">
+						<option value="0" selected="selected">游客</option>
+						<option value="1">注册用户</option>
+						<option value="3">管理员</option>
+					</select>
+				</div>
+				<div>
+                    <input id="registButton" type='button' value="Registerss" />
+					<input id="backButton" type='button' value="Back" />
+				</div>
+        </div>
+        <br /><br /><br />
+       	<div id="loginView">
+       		<div> Username </div>
+			<div>
+				<input id="login-name" type="text" /> 
+			</div>
+			<div> Password </div>
+			<div>
+				<input id="login-pwd" type="password" /> 
+			</div>
+			<div>
+				<input id="loginButton" type="button" value="Login">
+			</div>
+       	</div>
+       	<div id="roomListView">
+     
+       	</div>
+       	<div id="chatView">
+       		<div id="chatHistory">
+            </div>
+            <div id="toolbar">
+                <ul id="status">
+                    <li>
+                        users:
+                        <select name="users" id="usersList">
+                            <option value="*">
+                                all
+                            </option>
+                        </select>
+                    </li>
+                    <li>
+                        name:
+                        <span id="name">
+                        </span>
+                    </li>
+                    <li>
+                        room:
+                        <span id="room">
+                        </span>
+                    </li>
+                </ul>
+                <input tabindex="1" type="text" id="entry" />
+                <input type="button" id="chatSend" value="send">
+                <input type="button" id="clb" value="chatLog">
+            </div>
+       	</div>
+
+       	<div id="pop">
+            <div id="popHead">
+                <a id="popClose" title="close">Close</a>
+                <h2>
+                    Tip
+                </h2>
+            </div>
+            <div id="popContent">
+                <dl>
+                    <dd id="popIntro">
+                    </dd>
+                </dl>
+                <p id="popMore">
+                    No Tip Again
+                </p>
+            </div>
+        </div>
+        <div id="chatLogView">
+        	
+        </div>
+    </body>
+</html>        
