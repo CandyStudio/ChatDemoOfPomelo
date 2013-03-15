@@ -34,7 +34,16 @@ app.configure('production|development', function() {
 
 // start app
 app.start();
+if (app.curServer.serverType ==='chat' )
+{
 
+	console.log('create server');
+	var channel = app.get('channelService').getChannel('tt1', true);
+	console.log('create server:'+channel);
+} else {
+
+	console.log('XXX');
+}
 process.on('uncaughtException', function(err) {
 	console.error(' Caught exception: ' + err.stack);
 });

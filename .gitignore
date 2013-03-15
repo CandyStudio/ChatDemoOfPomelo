@@ -8,3 +8,17 @@ game-server/logs/*
 game-server/logs/node-log-master-server-1.log
 
 game-server/logs/forward-log-connector-server-1.log
+
+game-server/logs/node-log-chat-server-1.log
+
+game-server/logs/node-log-chat-server-2.log
+
+game-server/logs/node-log-chat-server-3.log
+
+game-server/logs/node-log-connector-server-1.log
+
+game-server/logs/node-log-connector-server-2.log
+
+game-server/logs/node-log-connector-server-3.log
+
+game-server/logs/node-log-gate-server-1.log

@@ -12,7 +12,7 @@ var handler = Handler.prototype;
 
 
 handler.query = function  (msg,session,next){
-	
+
 	chatDao.query(msg.userid,msg.roomid,function 	 (err,res) {
 			if (!!err) {
 				next(null,{
