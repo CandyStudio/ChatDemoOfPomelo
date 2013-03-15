@@ -23,15 +23,12 @@ NND.init = function  (app) {
 NND.query = function  (sql,args,cb) {
 	console.log('query :'+arguments);
 	_pool.acquire(function  (err,client) {
-		console.log(err,client);
 		if (!!err) {
 			console.log('[sqlqueryErr] '+err.stack);
 			return;
 		};
-		console.log('没错');
 		client.query(sql,args,function  (err,res) {
 			_pool.release(client);
-			console.log('到这了');
 			cb(err,res);
 		});
 	});

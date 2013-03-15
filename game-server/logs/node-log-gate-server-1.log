@@ -2680,3 +2680,113 @@
 [2013-03-14 22:04:45.628] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
 [2013-03-15 09:38:07.489] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
 [2013-03-15 10:27:39.028] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 11:07:06.201] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 11:08:43.179] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 11:27:14.135] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 11:34:13.843] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 11:42:37.385] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 11:54:06.445] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 11:54:06.951] [ERROR] console -  Caught exception: SyntaxError: Unexpected identifier
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app/servers/chat/handler/chatHandler.js:1:80)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+[2013-03-15 11:54:19.598] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 11:59:40.362] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 12:54:55.102] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 13:09:07.065] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 13:36:49.700] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 13:39:25.306] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 13:43:44.803] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 13:58:48.350] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 14:19:51.456] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 14:21:39.261] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 14:26:49.424] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 15:42:22.454] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 15:42:32.791] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 15:43:48.169] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 15:44:07.636] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 15:45:18.411] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 15:47:24.692] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 15:49:20.951] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:15:21.315] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:15:21.840] [ERROR] console -  Caught exception: SyntaxError: Unexpected identifier
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at Dictionary.start (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/components/dictionary.js:39:27)
+[2013-03-15 16:15:44.616] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:15:45.124] [ERROR] console -  Caught exception: SyntaxError: Unexpected token =
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at Dictionary.start (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/components/dictionary.js:39:27)
+[2013-03-15 16:16:09.584] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:16:10.125] [ERROR] console -  Caught exception: ReferenceError: requir is not defined
+    at Object.<anonymous> (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app/servers/chat/handler/chatHandler.js:2:15)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+[2013-03-15 16:16:36.588] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:16:37.075] [ERROR] console -  Caught exception: SyntaxError: Unexpected token )
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app/servers/chat/handler/chatHandler.js:2:15)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+[2013-03-15 16:16:59.299] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:18:51.588] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:21:25.695] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:23:48.690] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:24:54.177] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:26:04.122] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:28:13.820] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:29:16.667] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:36:59.804] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:56:58.365] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:57:36.713] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 16:58:43.346] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 17:07:20.567] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 17:19:39.347] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 17:20:22.198] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 17:22:41.606] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 17:33:31.662] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 18:06:30.593] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 18:07:16.423] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 18:07:51.807] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 18:08:21.646] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 18:09:52.627] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 18:10:56.869] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 18:25:42.383] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 18:30:13.849] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 18:35:49.765] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-03-15 18:46:35.542] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"

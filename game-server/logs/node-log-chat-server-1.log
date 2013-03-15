@@ -1878,3 +1878,854 @@
 [2013-03-15 10:27:39.584] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
 [2013-03-15 10:27:39.663] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
 [2013-03-15 10:27:39.664] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 10:53:15.825] [INFO] console - channel:name1
+[2013-03-15 10:53:15.826] [INFO] console - channel:[object Object]
+[2013-03-15 10:53:15.826] [INFO] console - users:118*11111
+[2013-03-15 11:07:06.199] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 11:07:06.709] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:07:06.735] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 11:07:06.832] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 11:07:06.833] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 11:08:43.166] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 11:08:43.689] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:08:43.749] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 11:08:43.840] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 11:08:43.841] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 11:12:30.894] [INFO] console - uid:131
+[2013-03-15 11:12:30.895] [INFO] console - username:1363317149
+[2013-03-15 11:12:30.895] [INFO] console - channel:name1
+[2013-03-15 11:12:30.895] [INFO] console - channel:[object Object]
+[2013-03-15 11:12:30.895] [INFO] console - users:131*1363317149
+[2013-03-15 11:12:42.268] [INFO] console - uid:132
+[2013-03-15 11:12:42.268] [INFO] console - username:1363317161
+[2013-03-15 11:12:42.268] [INFO] console - channel:name1
+[2013-03-15 11:12:42.268] [INFO] console - channel:[object Object]
+[2013-03-15 11:12:42.270] [INFO] console - users:132*1363317161
+[2013-03-15 11:12:46.836] [INFO] console - uid:133
+[2013-03-15 11:12:46.837] [INFO] console - username:1363317166
+[2013-03-15 11:12:46.837] [INFO] console - channel:name1
+[2013-03-15 11:12:46.837] [INFO] console - channel:[object Object]
+[2013-03-15 11:12:46.837] [INFO] console - users:133*1363317166
+[2013-03-15 11:20:13.861] [INFO] console - uid:1
+[2013-03-15 11:20:13.862] [INFO] console - username:lyl
+[2013-03-15 11:20:13.862] [INFO] console - channel:name1
+[2013-03-15 11:20:13.862] [INFO] console - channel:[object Object]
+[2013-03-15 11:20:13.862] [INFO] console - users:1*lyl
+[2013-03-15 11:20:19.388] [INFO] console - { route: 'onChat', msg: 'qq', from: 'lyl', target: '*' }
+[2013-03-15 11:27:14.096] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 11:27:14.657] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:27:14.667] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 11:27:14.741] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 11:27:14.741] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 11:27:33.934] [INFO] console - uid:1
+[2013-03-15 11:27:33.935] [INFO] console - username:lyl
+[2013-03-15 11:27:33.935] [INFO] console - channel:name1
+[2013-03-15 11:27:33.935] [INFO] console - channel:[object Object]
+[2013-03-15 11:27:33.935] [INFO] console - users:1*lyl
+[2013-03-15 11:28:10.189] [INFO] console - uid:4
+[2013-03-15 11:28:10.190] [INFO] console - username:qqq
+[2013-03-15 11:28:10.190] [INFO] console - channel:name1
+[2013-03-15 11:28:10.190] [INFO] console - channel:[object Object]
+[2013-03-15 11:28:10.194] [INFO] console - users:1*lyl
+[2013-03-15 11:28:10.194] [INFO] console - users:4*qqq
+[2013-03-15 11:28:17.792] [INFO] console - { route: 'onChat', msg: 'qq', from: 'qqq', target: undefined }
+[2013-03-15 11:28:17.794] [ERROR] console -  Caught exception: TypeError: Cannot read property 'sid' of undefined
+    at handler.send (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app/servers/chat/handler/chatHandler.js:41:37)
+    at Service.handle (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Filter.before (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/filters/handler/timeout.js:25:3)
+    at Service.beforeFilter.next (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/common/service/filterService.js:58:15)
+    at Service.beforeFilter (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+[2013-03-15 11:28:20.791] [WARN] /node_modules/pomelo/lib/filters/handler/timeout.js - request "chat.chatHandler.send" timeout.
+[2013-03-15 11:34:13.851] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 11:34:14.345] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:34:14.375] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 11:34:14.470] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 11:34:14.470] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 11:42:37.320] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 11:42:37.863] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:42:37.878] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 11:42:37.936] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 11:42:37.936] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 11:54:06.403] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 11:54:06.909] [ERROR] console -  Caught exception: SyntaxError: Unexpected identifier
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at loadRemoteServices (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/server.js:8:16)
+[2013-03-15 11:54:19.539] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 11:54:20.015] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:54:20.033] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 11:54:20.147] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 11:54:20.150] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 11:59:40.354] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 11:59:40.817] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:59:40.849] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 11:59:40.964] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 11:59:40.965] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 12:00:15.326] [INFO] console - uid:136
+[2013-03-15 12:00:15.327] [INFO] console - username:syxa
+[2013-03-15 12:00:15.327] [INFO] console - channel:name1
+[2013-03-15 12:00:15.327] [INFO] console - channel:[object Object]
+[2013-03-15 12:00:15.330] [INFO] console - users:136*syxa
+[2013-03-15 12:00:15.348] [INFO] console - pushMessage:callback: { '0': null, '1': [ '136*syxa' ] }
+[2013-03-15 12:00:18.322] [INFO] console - uid:1
+[2013-03-15 12:00:18.322] [INFO] console - username:lyl
+[2013-03-15 12:00:18.322] [INFO] console - channel:name1
+[2013-03-15 12:00:18.322] [INFO] console - channel:[object Object]
+[2013-03-15 12:00:18.322] [INFO] console - users:136*syxa
+[2013-03-15 12:00:18.322] [INFO] console - users:1*lyl
+[2013-03-15 12:00:18.325] [INFO] console - pushMessage:callback: { '0': null, '1': [ '136*syxa' ] }
+[2013-03-15 12:00:18.848] [INFO] console - uid:118
+[2013-03-15 12:00:18.849] [INFO] console - username:11111
+[2013-03-15 12:00:18.849] [INFO] console - channel:name1
+[2013-03-15 12:00:18.849] [INFO] console - channel:[object Object]
+[2013-03-15 12:00:18.850] [INFO] console - users:136*syxa
+[2013-03-15 12:00:18.850] [INFO] console - users:1*lyl
+[2013-03-15 12:00:18.850] [INFO] console - users:118*11111
+[2013-03-15 12:00:18.878] [INFO] console - pushMessage:callback: { '0': null, '1': [ '136*syxa' ] }
+[2013-03-15 12:03:35.115] [INFO] console - uid:118
+[2013-03-15 12:03:35.115] [INFO] console - username:11111
+[2013-03-15 12:03:35.115] [INFO] console - channel:name1
+[2013-03-15 12:03:35.115] [INFO] console - channel:[object Object]
+[2013-03-15 12:03:35.115] [INFO] console - users:136*syxa
+[2013-03-15 12:03:35.115] [INFO] console - users:118*11111
+[2013-03-15 12:03:35.141] [INFO] console - pushMessage:callback: { '0': null, '1': [] }
+[2013-03-15 12:03:39.166] [INFO] console - uid:136
+[2013-03-15 12:03:39.166] [INFO] console - username:syxa
+[2013-03-15 12:03:39.166] [INFO] console - channel:name1
+[2013-03-15 12:03:39.166] [INFO] console - channel:[object Object]
+[2013-03-15 12:03:39.167] [INFO] console - users:136*syxa
+[2013-03-15 12:03:39.167] [INFO] console - users:118*11111
+[2013-03-15 12:03:39.167] [INFO] console - users:136*syxa
+[2013-03-15 12:03:39.196] [INFO] console - pushMessage:callback: { '0': null, '1': [] }
+[2013-03-15 12:52:21.751] [INFO] console - uid:136
+[2013-03-15 12:52:21.752] [INFO] console - username:syxa
+[2013-03-15 12:52:21.752] [INFO] console - channel:name1
+[2013-03-15 12:52:21.752] [INFO] console - channel:[object Object]
+[2013-03-15 12:52:21.752] [INFO] console - users:136*syxa
+[2013-03-15 12:52:21.752] [INFO] console - users:136*syxa
+[2013-03-15 12:52:21.778] [INFO] console - pushMessage:callback: { '0': null, '1': [] }
+[2013-03-15 12:52:25.850] [INFO] console - uid:118
+[2013-03-15 12:52:25.850] [INFO] console - username:11111
+[2013-03-15 12:52:25.850] [INFO] console - channel:name1
+[2013-03-15 12:52:25.850] [INFO] console - channel:[object Object]
+[2013-03-15 12:52:25.850] [INFO] console - users:136*syxa
+[2013-03-15 12:52:25.851] [INFO] console - users:136*syxa
+[2013-03-15 12:52:25.851] [INFO] console - users:118*11111
+[2013-03-15 12:52:25.868] [INFO] console - pushMessage:callback: { '0': null, '1': [] }
+[2013-03-15 12:52:46.361] [INFO] console - { route: 'onChat', msg: 'cgbh', from: '11111', target: '*' }
+[2013-03-15 12:53:05.134] [INFO] console - { route: 'onChat', msg: '并不积极', from: '11111', target: undefined }
+[2013-03-15 12:53:05.136] [ERROR] console -  Caught exception: TypeError: Cannot read property 'sid' of undefined
+    at handler.send (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app/servers/chat/handler/chatHandler.js:41:37)
+    at Service.handle (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Filter.before (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/filters/handler/timeout.js:25:3)
+    at Service.beforeFilter.next (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/common/service/filterService.js:58:15)
+    at Service.beforeFilter (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+[2013-03-15 12:53:08.135] [WARN] /node_modules/pomelo/lib/filters/handler/timeout.js - request "chat.chatHandler.send" timeout.
+[2013-03-15 12:54:55.110] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 12:54:55.628] [INFO] console - info: 'socket.io started'
+[2013-03-15 12:54:55.649] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 12:54:55.743] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 12:54:55.743] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 13:09:07.033] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 13:09:07.540] [INFO] console - info: 'socket.io started'
+[2013-03-15 13:09:07.556] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 13:09:07.652] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 13:09:07.652] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 13:21:12.908] [INFO] console - uid:118
+[2013-03-15 13:21:12.908] [INFO] console - username:11111
+[2013-03-15 13:21:12.908] [INFO] console - channel:name2
+[2013-03-15 13:21:12.908] [INFO] console - channel:[object Object]
+[2013-03-15 13:21:12.908] [INFO] console - pushMessage:callback: {}
+[2013-03-15 13:21:12.909] [INFO] console - users:118*11111
+[2013-03-15 13:36:49.675] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 13:36:50.190] [INFO] console - info: 'socket.io started'
+[2013-03-15 13:36:50.218] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 13:36:50.300] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 13:36:50.303] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 13:39:25.303] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 13:39:25.809] [INFO] console - info: 'socket.io started'
+[2013-03-15 13:39:25.836] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 13:39:25.907] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 13:39:25.907] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 13:43:44.805] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 13:43:45.341] [INFO] console - info: 'socket.io started'
+[2013-03-15 13:43:45.356] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 13:43:45.416] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 13:43:45.416] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 13:58:48.341] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 13:58:48.871] [INFO] console - info: 'socket.io started'
+[2013-03-15 13:58:48.891] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 13:58:48.953] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 13:58:48.964] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 14:19:51.430] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 14:19:51.941] [INFO] console - info: 'socket.io started'
+[2013-03-15 14:19:51.961] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 14:19:52.047] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 14:19:52.048] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 14:20:37.438] [INFO] console - uid:136
+[2013-03-15 14:20:37.438] [INFO] console - username:syxa
+[2013-03-15 14:20:37.438] [INFO] console - channel:name1
+[2013-03-15 14:20:37.438] [INFO] console - channel:[object Object]
+[2013-03-15 14:20:37.439] [INFO] console - pushMessage:callback: {}
+[2013-03-15 14:20:37.439] [INFO] console - users:136*syxa
+[2013-03-15 14:20:38.923] [INFO] console - uid:118
+[2013-03-15 14:20:38.923] [INFO] console - username:11111
+[2013-03-15 14:20:38.923] [INFO] console - channel:name1
+[2013-03-15 14:20:38.924] [INFO] console - channel:[object Object]
+[2013-03-15 14:20:38.927] [INFO] console - users:136*syxa
+[2013-03-15 14:20:38.927] [INFO] console - users:118*11111
+[2013-03-15 14:20:38.960] [INFO] console - pushMessage:callback: { '0': null, '1': [] }
+[2013-03-15 14:20:40.906] [INFO] console - syxa离开
+[2013-03-15 14:21:39.212] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 14:21:39.736] [INFO] console - info: 'socket.io started'
+[2013-03-15 14:21:39.762] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 14:21:39.828] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 14:21:39.828] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 14:26:49.460] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 14:26:49.944] [INFO] console - info: 'socket.io started'
+[2013-03-15 14:26:49.975] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 14:26:50.058] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 14:26:50.062] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 15:42:22.441] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 15:42:22.983] [INFO] console - info: 'socket.io started'
+[2013-03-15 15:42:23.003] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 15:42:23.091] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 15:42:23.091] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 15:42:23.093] [ERROR] console -  Caught exception: ReferenceError: start is not defined
+    at /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js:31:14
+    at Object.utils.invokeCallback (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/util/utils.js:11:8)
+    at Application.afterStart (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/application.js:250:11)
+    at module.exports.optComponents (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/util/appUtil.js:90:5)
+    at async.eachSeries.sync (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/async/lib/async.js:131:25)
+    at module.exports.optComponents (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/util/appUtil.js:84:7)
+    at async.eachSeries.iterate (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/async/lib/async.js:123:13)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-03-15 15:42:32.708] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 15:42:33.237] [INFO] console - info: 'socket.io started'
+[2013-03-15 15:42:33.250] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 15:42:33.334] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 15:42:33.334] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 15:42:33.334] [INFO] console - start
+[2013-03-15 15:43:48.112] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 15:43:48.654] [INFO] console - info: 'socket.io started'
+[2013-03-15 15:43:48.665] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 15:43:48.748] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 15:43:48.748] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 15:43:48.750] [ERROR] console -  Caught exception: ReferenceError: self is not defined
+    at /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js:32:23
+    at Object.utils.invokeCallback (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/util/utils.js:11:8)
+    at Application.afterStart (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/application.js:250:11)
+    at module.exports.optComponents (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/util/appUtil.js:90:5)
+    at async.eachSeries.sync (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/async/lib/async.js:131:25)
+    at module.exports.optComponents (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/util/appUtil.js:84:7)
+    at async.eachSeries.iterate (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/async/lib/async.js:123:13)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-03-15 15:44:07.660] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 15:44:08.193] [INFO] console - info: 'socket.io started'
+[2013-03-15 15:44:08.216] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 15:44:08.273] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 15:44:08.274] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 15:45:18.386] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 15:45:18.911] [INFO] console - info: 'socket.io started'
+[2013-03-15 15:45:18.936] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 15:45:19.000] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 15:45:19.000] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 15:45:19.000] [INFO] console - { init: [Function],
+  getBase: [Function],
+  filter: [Function],
+  before: [Function],
+  after: [Function],
+  load: [Function],
+  loadConfig: [Function],
+  route: [Function],
+  start: [Function],
+  afterStart: [Function],
+  stop: [Function],
+  set: [Function],
+  get: [Function],
+  enabled: [Function],
+  disabled: [Function],
+  enable: [Function],
+  disable: [Function],
+  configure: [Function],
+  registerAdmin: [Function],
+  getMaster: [Function],
+  getCurServer: [Function],
+  getServerId: [Function],
+  getServerType: [Function],
+  getServers: [Function],
+  getServersFromConfig: [Function],
+  getServerTypes: [Function],
+  getServerById: [Function],
+  getServerFromConfig: [Function],
+  getServersByType: [Function],
+  isFrontend: [Function],
+  isBackend: [Function],
+  isMaster: [Function],
+  addServers: [Function],
+  removeServers: [Function],
+  loaded: 
+   [ { client: [Object], app: [Circular], opts: [Object] },
+     { app: [Circular], opts: [Object], remote: [Object] },
+     { app: [Circular], name: '__localSession__' },
+     { app: [Circular], channels: {}, name: '__channel__' },
+     { server: [Object] },
+     { monitor: [Object] } ],
+  components: 
+   { __localSession__: { app: [Circular], name: '__localSession__' },
+     __channel__: { app: [Circular], channels: {}, name: '__channel__' },
+     __server__: { server: [Object] } },
+  settings: 
+   { base: undefined,
+     env: 'development',
+     master: 
+      { id: 'master-server-1',
+        host: '127.0.0.1',
+        port: 3005,
+        queryPort: 3015,
+        wsPort: 2337 },
+     servers: { connector: [Object], chat: [Object], gate: [Object] },
+     __serverMap__: 
+      { 'connector-server-1': [Object],
+        'connector-server-2': [Object],
+        'connector-server-3': [Object],
+        'chat-server-1': [Object],
+        'chat-server-2': [Object],
+        'chat-server-3': [Object],
+        'gate-server-1': [Object] },
+     main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+     serverType: 'chat',
+     serverId: 'chat-server-1',
+     curServer: 
+      { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+        env: 'development',
+        id: 'chat-server-1',
+        host: '10.0.1.44',
+        port: 6050,
+        serverType: 'chat' },
+     name: 'chatofpomelo',
+     __routes__: { chat: [Function] },
+     mysql: 
+      { host: '127.0.0.1',
+        port: '3306',
+        database: 'Chatdemo',
+        user: 'root',
+        password: '123456' },
+     __befores__: [ [Object] ],
+     __afters__: [ [Object] ],
+     dbclient: 
+      { init: [Function],
+        shutdown: [Function],
+        insert: [Function],
+        update: [Function],
+        delete: [Function],
+        query: [Function] },
+     localSessionService: { app: [Circular], name: '__localSession__' },
+     channelService: { app: [Circular], channels: {}, name: '__channel__' },
+     __modules__: [ [Object], [Object] ],
+     rpcInvoke: [Function] },
+  event: 
+   { domain: null,
+     _events: { __add_servers__: [Function], __remove_servers__: [Function] },
+     _maxListeners: 10 },
+  serverId: 'chat-server-1',
+  serverType: 'chat',
+  curServer: 
+   { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+     env: 'development',
+     id: 'chat-server-1',
+     host: '10.0.1.44',
+     port: 6050,
+     serverType: 'chat' },
+  master: 
+   { id: 'master-server-1',
+     host: '127.0.0.1',
+     port: 3005,
+     queryPort: 3015,
+     wsPort: 2337 },
+  servers: 
+   { 'chat-server-1': 
+      { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+        env: 'development',
+        id: 'chat-server-1',
+        host: '10.0.1.44',
+        port: 6050,
+        serverType: 'chat' } },
+  serverTypeMaps: { chat: [ [Object] ] },
+  serverTypes: [ 'chat' ],
+  env: 'development',
+  main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+  state: 3,
+  localSessionService: { app: [Circular], name: '__localSession__' },
+  channelService: { app: [Circular], channels: {}, name: '__channel__' },
+  rpc: [Getter],
+  sysrpc: [Getter],
+  rpcInvoke: [Function] }
+[2013-03-15 15:47:24.662] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 15:47:25.215] [INFO] console - info: 'socket.io started'
+[2013-03-15 15:47:25.246] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 15:47:25.332] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 15:47:25.333] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 15:47:25.333] [INFO] console - { init: [Function],
+  getBase: [Function],
+  filter: [Function],
+  before: [Function],
+  after: [Function],
+  load: [Function],
+  loadConfig: [Function],
+  route: [Function],
+  start: [Function],
+  afterStart: [Function],
+  stop: [Function],
+  set: [Function],
+  get: [Function],
+  enabled: [Function],
+  disabled: [Function],
+  enable: [Function],
+  disable: [Function],
+  configure: [Function],
+  registerAdmin: [Function],
+  getMaster: [Function],
+  getCurServer: [Function],
+  getServerId: [Function],
+  getServerType: [Function],
+  getServers: [Function],
+  getServersFromConfig: [Function],
+  getServerTypes: [Function],
+  getServerById: [Function],
+  getServerFromConfig: [Function],
+  getServersByType: [Function],
+  isFrontend: [Function],
+  isBackend: [Function],
+  isMaster: [Function],
+  addServers: [Function],
+  removeServers: [Function],
+  loaded: 
+   [ { client: [Object], app: [Circular], opts: [Object] },
+     { app: [Circular], opts: [Object], remote: [Object] },
+     { app: [Circular], name: '__localSession__' },
+     { app: [Circular], channels: {}, name: '__channel__' },
+     { server: [Object] },
+     { monitor: [Object] } ],
+  components: 
+   { __localSession__: { app: [Circular], name: '__localSession__' },
+     __channel__: { app: [Circular], channels: {}, name: '__channel__' },
+     __server__: { server: [Object] } },
+  settings: 
+   { base: undefined,
+     env: 'development',
+     master: 
+      { id: 'master-server-1',
+        host: '127.0.0.1',
+        port: 3005,
+        queryPort: 3015,
+        wsPort: 2337 },
+     servers: { connector: [Object], chat: [Object], gate: [Object] },
+     __serverMap__: 
+      { 'connector-server-1': [Object],
+        'connector-server-2': [Object],
+        'connector-server-3': [Object],
+        'chat-server-1': [Object],
+        'chat-server-2': [Object],
+        'chat-server-3': [Object],
+        'gate-server-1': [Object] },
+     main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+     serverType: 'chat',
+     serverId: 'chat-server-1',
+     curServer: 
+      { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+        env: 'development',
+        id: 'chat-server-1',
+        host: '10.0.1.44',
+        port: 6050,
+        serverType: 'chat' },
+     name: 'chatofpomelo',
+     __routes__: { chat: [Function] },
+     mysql: 
+      { host: '127.0.0.1',
+        port: '3306',
+        database: 'Chatdemo',
+        user: 'root',
+        password: '123456' },
+     __befores__: [ [Object] ],
+     __afters__: [ [Object] ],
+     dbclient: 
+      { init: [Function],
+        shutdown: [Function],
+        insert: [Function],
+        update: [Function],
+        delete: [Function],
+        query: [Function] },
+     localSessionService: { app: [Circular], name: '__localSession__' },
+     channelService: { app: [Circular], channels: {}, name: '__channel__' },
+     __modules__: [ [Object], [Object] ],
+     rpcInvoke: [Function] },
+  event: 
+   { domain: null,
+     _events: { __add_servers__: [Function], __remove_servers__: [Function] },
+     _maxListeners: 10 },
+  serverId: 'chat-server-1',
+  serverType: 'chat',
+  curServer: 
+   { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+     env: 'development',
+     id: 'chat-server-1',
+     host: '10.0.1.44',
+     port: 6050,
+     serverType: 'chat' },
+  master: 
+   { id: 'master-server-1',
+     host: '127.0.0.1',
+     port: 3005,
+     queryPort: 3015,
+     wsPort: 2337 },
+  servers: 
+   { 'connector-server-1': 
+      { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+        env: 'development',
+        id: 'connector-server-1',
+        host: '10.0.1.44',
+        port: 4050,
+        clientPort: 3050,
+        frontend: 'true',
+        serverType: 'connector' },
+     'chat-server-3': 
+      { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+        env: 'development',
+        id: 'chat-server-3',
+        host: '10.0.1.44',
+        port: 6052,
+        serverType: 'chat' },
+     'connector-server-2': 
+      { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+        env: 'development',
+        id: 'connector-server-2',
+        host: '10.0.1.44',
+        port: 4051,
+        clientPort: 3051,
+        frontend: 'true',
+        serverType: 'connector' },
+     'chat-server-1': 
+      { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+        env: 'development',
+        id: 'chat-server-1',
+        host: '10.0.1.44',
+        port: 6050,
+        serverType: 'chat' },
+     'connector-server-3': 
+      { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+        env: 'development',
+        id: 'connector-server-3',
+        host: '10.0.1.44',
+        port: 4052,
+        clientPort: 3052,
+        frontend: 'true',
+        serverType: 'connector' },
+     'chat-server-2': 
+      { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+        env: 'development',
+        id: 'chat-server-2',
+        host: '10.0.1.44',
+        port: 6051,
+        serverType: 'chat' } },
+  serverTypeMaps: 
+   { connector: [ [Object], [Object], [Object] ],
+     chat: [ [Object], [Object], [Object] ] },
+  serverTypes: [ 'connector', 'chat' ],
+  env: 'development',
+  main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+  state: 3,
+  localSessionService: { app: [Circular], name: '__localSession__' },
+  channelService: { app: [Circular], channels: {}, name: '__channel__' },
+  rpc: [Getter],
+  sysrpc: [Getter],
+  rpcInvoke: [Function] }
+[2013-03-15 15:49:20.968] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 15:49:21.517] [INFO] console - info: 'socket.io started'
+[2013-03-15 15:49:21.528] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-03-15 15:49:21.604] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-03-15 15:49:21.604] [INFO] /node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-03-15 15:49:21.605] [INFO] console - app start
+[2013-03-15 15:49:21.605] [INFO] console - { init: [Function],
+  getBase: [Function],
+  filter: [Function],
+  before: [Function],
+  after: [Function],
+  load: [Function],
+  loadConfig: [Function],
+  route: [Function],
+  start: [Function],
+  afterStart: [Function],
+  stop: [Function],
+  set: [Function],
+  get: [Function],
+  enabled: [Function],
+  disabled: [Function],
+  enable: [Function],
+  disable: [Function],
+  configure: [Function],
+  registerAdmin: [Function],
+  getMaster: [Function],
+  getCurServer: [Function],
+  getServerId: [Function],
+  getServerType: [Function],
+  getServers: [Function],
+  getServersFromConfig: [Function],
+  getServerTypes: [Function],
+  getServerById: [Function],
+  getServerFromConfig: [Function],
+  getServersByType: [Function],
+  isFrontend: [Function],
+  isBackend: [Function],
+  isMaster: [Function],
+  addServers: [Function],
+  removeServers: [Function],
+  loaded: 
+   [ { client: [Object], app: [Circular], opts: [Object] },
+     { app: [Circular], opts: [Object], remote: [Object] },
+     { app: [Circular], name: '__localSession__' },
+     { app: [Circular], channels: {}, name: '__channel__' },
+     { server: [Object] },
+     { monitor: [Object] } ],
+  components: 
+   { __localSession__: { app: [Circular], name: '__localSession__' },
+     __channel__: { app: [Circular], channels: {}, name: '__channel__' },
+     __server__: { server: [Object] } },
+  settings: 
+   { base: undefined,
+     env: 'development',
+     master: 
+      { id: 'master-server-1',
+        host: '127.0.0.1',
+        port: 3005,
+        queryPort: 3015,
+        wsPort: 2337 },
+     servers: { connector: [Object], chat: [Object], gate: [Object] },
+     __serverMap__: 
+      { 'connector-server-1': [Object],
+        'connector-server-2': [Object],
+        'connector-server-3': [Object],
+        'chat-server-1': [Object],
+        'chat-server-2': [Object],
+        'chat-server-3': [Object],
+        'gate-server-1': [Object] },
+     main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+     serverType: 'chat',
+     serverId: 'chat-server-1',
+     curServer: 
+      { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+        env: 'development',
+        id: 'chat-server-1',
+        host: '10.0.1.44',
+        port: 6050,
+        serverType: 'chat' },
+     name: 'chatofpomelo',
+     __routes__: { chat: [Function] },
+     mysql: 
+      { host: '127.0.0.1',
+        port: '3306',
+        database: 'Chatdemo',
+        user: 'root',
+        password: '123456' },
+     __befores__: [ [Object] ],
+     __afters__: [ [Object] ],
+     dbclient: 
+      { init: [Function],
+        shutdown: [Function],
+        insert: [Function],
+        update: [Function],
+        delete: [Function],
+        query: [Function] },
+     localSessionService: { app: [Circular], name: '__localSession__' },
+     channelService: { app: [Circular], channels: {}, name: '__channel__' },
+     __modules__: [ [Object], [Object] ],
+     rpcInvoke: [Function] },
+  event: 
+   { domain: null,
+     _events: { __add_servers__: [Function], __remove_servers__: [Function] },
+     _maxListeners: 10 },
+  serverId: 'chat-server-1',
+  serverType: 'chat',
+  curServer: 
+   { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+     env: 'development',
+     id: 'chat-server-1',
+     host: '10.0.1.44',
+     port: 6050,
+     serverType: 'chat' },
+  master: 
+   { id: 'master-server-1',
+     host: '127.0.0.1',
+     port: 3005,
+     queryPort: 3015,
+     wsPort: 2337 },
+  servers: 
+   { 'connector-server-2': 
+      { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+        env: 'development',
+        id: 'connector-server-2',
+        host: '10.0.1.44',
+        port: 4051,
+        clientPort: 3051,
+        frontend: 'true',
+        serverType: 'connector' },
+     'connector-server-3': 
+      { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+        env: 'development',
+        id: 'connector-server-3',
+        host: '10.0.1.44',
+        port: 4052,
+        clientPort: 3052,
+        frontend: 'true',
+        serverType: 'connector' },
+     'chat-server-1': 
+      { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+        env: 'development',
+        id: 'chat-server-1',
+        host: '10.0.1.44',
+        port: 6050,
+        serverType: 'chat' },
+     'connector-server-1': 
+      { main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+        env: 'development',
+        id: 'connector-server-1',
+        host: '10.0.1.44',
+        port: 4050,
+        clientPort: 3050,
+        frontend: 'true',
+        serverType: 'connector' } },
+  serverTypeMaps: 
+   { connector: [ [Object], [Object], [Object] ],
+     chat: [ [Object] ] },
+  serverTypes: [ 'connector', 'chat' ],
+  env: 'development',
+  main: '/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js',
+  state: 3,
+  localSessionService: { app: [Circular], name: '__localSession__' },
+  channelService: { app: [Circular], channels: {}, name: '__channel__' },
+  rpc: [Getter],
+  sysrpc: [Getter],
+  rpcInvoke: [Function] }
+[2013-03-15 16:15:21.286] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:15:21.812] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:15:21.834] [ERROR] console -  Caught exception: SyntaxError: Unexpected identifier
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at loadHandlers (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/server/server.js:106:19)
+[2013-03-15 16:15:44.584] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:15:45.086] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:15:45.105] [ERROR] console -  Caught exception: SyntaxError: Unexpected token =
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at loadHandlers (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/server/server.js:106:19)
+[2013-03-15 16:16:09.530] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:16:10.042] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:16:10.048] [ERROR] console -  Caught exception: ReferenceError: requir is not defined
+    at Object.<anonymous> (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app/servers/chat/handler/chatHandler.js:2:15)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+[2013-03-15 16:16:36.479] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:16:37.006] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:16:37.018] [ERROR] console -  Caught exception: SyntaxError: Unexpected token )
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app/servers/chat/handler/chatHandler.js:2:15)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+[2013-03-15 16:16:59.289] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:16:59.817] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:18:51.580] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:18:52.104] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:21:25.673] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:21:26.188] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:23:48.676] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:23:49.186] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:24:54.187] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:24:54.688] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:26:04.085] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:26:04.618] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:28:13.830] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:28:14.342] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:29:16.576] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:29:17.067] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:36:59.776] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:37:00.334] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:56:58.291] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:56:58.829] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:57:36.660] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:57:37.197] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:58:43.353] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 16:58:43.885] [INFO] console - info: 'socket.io started'
+[2013-03-15 17:07:20.551] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 17:07:21.096] [INFO] console - info: 'socket.io started'
+[2013-03-15 17:19:39.264] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 17:19:39.831] [INFO] console - info: 'socket.io started'
+[2013-03-15 17:20:22.161] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 17:20:22.701] [INFO] console - info: 'socket.io started'
+[2013-03-15 17:22:41.576] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 17:22:42.093] [INFO] console - info: 'socket.io started'
+[2013-03-15 17:33:31.626] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 17:33:32.204] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:06:30.549] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 18:06:31.100] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:07:16.360] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 18:07:16.852] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:07:51.788] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 18:07:52.353] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:08:21.586] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 18:08:22.120] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:09:52.565] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 18:09:53.052] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:10:56.880] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 18:10:57.418] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:25:42.329] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 18:25:42.842] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:30:13.774] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 18:30:14.269] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:35:49.749] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 18:35:50.261] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:46:35.529] [INFO] /node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-03-15 18:46:36.044] [INFO] console - info: 'socket.io started'

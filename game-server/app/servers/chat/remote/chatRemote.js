@@ -17,7 +17,8 @@ var ChatRemote = function(app) {
  *
  */
 ChatRemote.prototype.add = function(uid, username,sid, name, flag, cb) {
-	debugger;
+	console.log('uid:'+uid);
+	console.log('username:'+username);
 	console.log('channel:'+ name);
 	var channel = this.channelService.getChannel(name, flag);
 	console.log('channel:'+channel);
@@ -26,7 +27,8 @@ ChatRemote.prototype.add = function(uid, username,sid, name, flag, cb) {
 		userid:uid,
 		username: username
 	};
-	channel.pushMessage('onAdd',param,null);
+	
+	channel.pushMessage(param);
 
 	if( !! channel) {
 		channel.add(uid+'*'+username, sid);
@@ -74,14 +76,19 @@ ChatRemote.prototype.kick = function(uid, user,sid, name) {
 	var channel = this.channelService.getChannel(name, false);
 	// leave channel
 	var username = user.user_name;
+	console.log(username+'离开');
 	if( !! channel) {
-		var id = uid+'*'+username;
+		var id = uid;
 		channel.leave(id, sid);
 	}
-	
+	else
+	{
+		console.log('离开没有找到channel');
+	}
 	var param = {
 		route: 'onLeave',
-		user: username
+		username: username,
+		userid:user.id
 	};
 	channel.pushMessage(param);
 };

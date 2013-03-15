@@ -13,18 +13,24 @@ app.configure('production|development', function() {
 	app.route('chat', routeUtil.chat);
 
 	// filter configures
-	app.loadConfig('mysql',app.getBase()+'/../shared/config/mysql.json');
+	app.loadConfig('mysql', app.getBase() + '/../shared/config/mysql.json');
 
 	app.filter(pomelo.timeout());
 });
 
 
 //Configure database
-app.configure('production|development',function  () {
+app.configure('production|development', function() {
 	var dbclient = require('./app/dao/mysql/mysql').init(app);
-	app.set('dbclient',dbclient);
+	app.set('dbclient', dbclient);
 	// app.load(pomelo.sync,{path:__dirname+'/app/dao/mapping',dbclient:dbclient});
+
+
+
 });
+
+
+
 
 // start app
 app.start();

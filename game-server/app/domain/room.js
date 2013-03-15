@@ -6,7 +6,7 @@
 var Room = function  (opts) {
 	this.id = opts.id;
 	this.name = opts.name;
-	this.createusername = opts.createusername;
+	this.createuserid = opts.createuserid;
 	this.createtime = opts.createtime;
 };
 

@@ -549,3 +549,168 @@
 [2013-03-15 09:38:08.002] [INFO] console - info: 'socket.io started'
 [2013-03-15 10:27:39.007] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
 [2013-03-15 10:27:39.532] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:07:06.190] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 11:07:06.750] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:08:43.074] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 11:08:43.614] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:27:14.059] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 11:27:14.634] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:34:13.796] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 11:34:14.362] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:42:37.193] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 11:42:37.744] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:54:06.421] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 11:54:06.952] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:54:06.957] [ERROR] console -  Caught exception: SyntaxError: Unexpected identifier
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app/servers/chat/handler/chatHandler.js:1:80)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+[2013-03-15 11:54:19.517] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 11:54:20.046] [INFO] console - info: 'socket.io started'
+[2013-03-15 11:59:40.320] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 11:59:40.846] [INFO] console - info: 'socket.io started'
+[2013-03-15 12:54:55.096] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 12:54:55.662] [INFO] console - info: 'socket.io started'
+[2013-03-15 13:09:07.035] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 13:09:07.596] [INFO] console - info: 'socket.io started'
+[2013-03-15 13:36:49.643] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 13:36:50.206] [INFO] console - info: 'socket.io started'
+[2013-03-15 13:39:25.265] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 13:39:25.809] [INFO] console - info: 'socket.io started'
+[2013-03-15 13:43:44.806] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 13:43:45.386] [INFO] console - info: 'socket.io started'
+[2013-03-15 13:58:48.309] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 13:58:48.884] [INFO] console - info: 'socket.io started'
+[2013-03-15 14:19:51.414] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 14:19:51.941] [INFO] console - info: 'socket.io started'
+[2013-03-15 14:21:39.190] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 14:21:39.724] [INFO] console - info: 'socket.io started'
+[2013-03-15 14:26:49.453] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 14:26:49.980] [INFO] console - info: 'socket.io started'
+[2013-03-15 15:42:22.444] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 15:42:23.007] [INFO] console - info: 'socket.io started'
+[2013-03-15 15:42:32.718] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 15:42:33.271] [INFO] console - info: 'socket.io started'
+[2013-03-15 15:43:48.088] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 15:43:48.682] [INFO] console - info: 'socket.io started'
+[2013-03-15 15:44:07.634] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 15:44:08.163] [INFO] console - info: 'socket.io started'
+[2013-03-15 15:45:18.383] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 15:45:18.959] [INFO] console - info: 'socket.io started'
+[2013-03-15 15:47:24.641] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 15:47:25.215] [INFO] console - info: 'socket.io started'
+[2013-03-15 15:49:20.881] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 15:49:21.427] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:15:21.289] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:15:21.851] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:15:21.856] [ERROR] console -  Caught exception: SyntaxError: Unexpected identifier
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at Dictionary.start (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/components/dictionary.js:39:27)
+[2013-03-15 16:15:44.553] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:15:45.097] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:15:45.110] [ERROR] console -  Caught exception: SyntaxError: Unexpected token =
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at Dictionary.start (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/lib/components/dictionary.js:39:27)
+[2013-03-15 16:16:09.514] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:16:10.089] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:16:10.101] [ERROR] console -  Caught exception: ReferenceError: requir is not defined
+    at Object.<anonymous> (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app/servers/chat/handler/chatHandler.js:2:15)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+[2013-03-15 16:16:36.453] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:16:37.024] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:16:37.030] [ERROR] console -  Caught exception: SyntaxError: Unexpected token )
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app/servers/chat/handler/chatHandler.js:2:15)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+[2013-03-15 16:16:59.275] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:16:59.834] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:18:51.582] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:18:52.153] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:21:25.672] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:21:26.212] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:23:48.684] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:23:49.201] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:24:54.173] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:24:54.741] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:26:04.064] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:26:04.627] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:28:13.774] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:28:14.293] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:29:16.575] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:29:17.137] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:36:59.792] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:37:00.351] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:56:58.255] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:56:58.798] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:57:36.670] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:57:37.214] [INFO] console - info: 'socket.io started'
+[2013-03-15 16:58:43.344] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 16:58:43.831] [INFO] console - info: 'socket.io started'
+[2013-03-15 17:07:20.521] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 17:07:21.090] [INFO] console - info: 'socket.io started'
+[2013-03-15 17:19:39.260] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 17:19:39.815] [INFO] console - info: 'socket.io started'
+[2013-03-15 17:20:22.108] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 17:20:22.704] [INFO] console - info: 'socket.io started'
+[2013-03-15 17:22:41.506] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 17:22:42.076] [INFO] console - info: 'socket.io started'
+[2013-03-15 17:33:31.592] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 17:33:32.162] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:06:30.526] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 18:06:31.074] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:07:16.393] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 18:07:16.958] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:07:51.779] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 18:07:52.362] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:08:21.579] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 18:08:22.090] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:09:52.542] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 18:09:53.144] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:10:56.842] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 18:10:57.434] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:25:42.290] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 18:25:42.856] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:30:13.782] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 18:30:14.342] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:35:49.703] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 18:35:50.265] [INFO] console - info: 'socket.io started'
+[2013-03-15 18:46:35.508] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-03-15 18:46:36.086] [INFO] console - info: 'socket.io started'

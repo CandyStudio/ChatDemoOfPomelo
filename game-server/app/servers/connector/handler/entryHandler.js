@@ -19,9 +19,12 @@ var handler = Handler.prototype;
  */
 handler.enter = function(msg, session, next) {
 	var self = this;
-	var uid = msg.userid;
+	var username = msg.username;
+	var uid = msg.userid + '*' + username;
 	var sessionService = self.app.get('sessionService');
-
+	console.log('enter uid:' + uid);
+	console.log('enter sessionService:' + sessionService);
+	console.log('enter session:' + sessionService.getByUid(uid));
 	//duplicate log in
 	if ( !! sessionService.getByUid(uid)) {
 		next(null, {
@@ -31,24 +34,29 @@ handler.enter = function(msg, session, next) {
 		return;
 	}
 	var channelService = self.app.get('channelService');
-	var c1 = channelService.getChannel('name1', true);
-	var c2 = channelService.getChannel('name2', true);
+	var c1 = channelService.getChannel('1', true);
+	var c2 = channelService.getChannel('2', true);
+	c1.channelname = 'name1';
+	c2.channelname = 'name2';
 	var channels = self.app.get('channelService').getChannels();
 	var names = [];
 	for (var c in channels) {
-		names.push(c);
+		names.push({
+			id: c,
+			name:channels[c].channelname
+		});
 	}
 	session.bind(uid);
 
 	var userDao = require('../../../dao/userDao');
-	userDao.getUserInfoByID(uid, function(err, res) {
+	userDao.getUserInfoByID(msg.userid, function(err, res) {
 		if ( !! err) {
 			next(null, {
 				code: 500
 			});
 		} else {
-			console.log('session bind'+res);
-			session.set('user',res[0]);
+			console.log('session bind' + res);
+			session.set('user', res[0]);
 			session.push('user');
 			next(null, {
 				code: 200,
@@ -77,6 +85,24 @@ handler.enterRoom = function(msg, session, next) {
 	});
 };
 
+handler.createRoom = function(msg, session, next) {
+	var roomDao = require('../../../dao/roomDao');
+
+	roomDao.createRoom(msg.channel, msg.userid, function(err, roomid) {
+		
+		if ( !! err) {
+			next(null, {
+				code: 500,
+				err:err
+			});
+		} else {
+			var channel = next(null, {
+				code: 200,
+				roomid: roomid
+			});
+		};
+	});
+};
 
 /**
  * User log out handler
@@ -89,6 +115,6 @@ var onUserLeave = function(app, session) {
 	if (!session || !session.uid) {
 		return;
 	}
-	console.log('test:'+session.get('user'));
-	app.rpc.chat.chatRemote.kick(session, session.uid,session.get('user'), app.get('serverId'), session.get('rid'), null);
+
+	app.rpc.chat.chatRemote.kick(session, session.uid, session.get('user'), app.get('serverId'), session.get('rid'), null);
 };

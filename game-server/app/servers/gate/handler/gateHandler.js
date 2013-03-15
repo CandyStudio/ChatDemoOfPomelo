@@ -52,7 +52,7 @@ var userdao = require('../../../dao/userDao');
  * @next {Function} callback
  */
 handler.login = function(msg, session, next) {
-
+	
 	console.log(msg);
 	app = this.app;
 	userdao.getUserInfo(msg.username, function(err, users) {
@@ -68,7 +68,7 @@ handler.login = function(msg, session, next) {
 				next(null, {
 					code: 500,
 					err: {
-						errorcode: NOUSERNAME
+						errorcode: consts.ErrorCode.NOUSERNAME
 					}
 				});
 				return;
@@ -78,7 +78,7 @@ handler.login = function(msg, session, next) {
 					next(null, {
 						code: 500,
 						err: {
-							errorcode: PASSWORDERROR
+							errorcode: consts.ErrorCode.PASSWORDERROR
 						}
 					});
 					return;
