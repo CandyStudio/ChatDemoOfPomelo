@@ -2,3 +2,5 @@
 *.log
 
 *.log
+
+game-server/logs/node-log-master-server-1.log
