@@ -547,3 +547,5 @@
 [2013-03-14 22:04:46.089] [INFO] console - info: 'socket.io started'
 [2013-03-15 09:38:07.446] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
 [2013-03-15 09:38:07.998] [INFO] console - info: 'socket.io started'
+[2013-03-15 10:27:39.025] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-03-15 10:27:39.561] [INFO] console - info: 'socket.io started'

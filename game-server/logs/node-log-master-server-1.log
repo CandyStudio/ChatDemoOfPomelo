@@ -53557,3 +53557,89 @@ info: socket.io started
 
 [2013-03-15 09:38:08.113] [INFO] console - [32m[2013-03-15 09:38:08.112] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
 
+[2013-03-15 10:27:38.638] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-03-15 10:27:38.808] [INFO] console - info: 'socket.io started'
+[2013-03-15 10:27:38.809] [INFO] /node_modules/pomelo/lib/master/starter.js - Executing cd /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server && node  /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js env=development  id=connector-server-1  host=10.0.1.44  port=4050  clientPort=3050  frontend=true  serverType=connector  locally
+[2013-03-15 10:27:38.812] [INFO] /node_modules/pomelo/lib/master/starter.js - Executing cd /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server && node  /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js env=development  id=connector-server-2  host=10.0.1.44  port=4051  clientPort=3051  frontend=true  serverType=connector  locally
+[2013-03-15 10:27:38.814] [INFO] /node_modules/pomelo/lib/master/starter.js - Executing cd /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server && node  /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js env=development  id=connector-server-3  host=10.0.1.44  port=4052  clientPort=3052  frontend=true  serverType=connector  locally
+[2013-03-15 10:27:38.816] [INFO] /node_modules/pomelo/lib/master/starter.js - Executing cd /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server && node  /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js env=development  id=chat-server-1  host=10.0.1.44  port=6050  serverType=chat  locally
+[2013-03-15 10:27:38.818] [INFO] /node_modules/pomelo/lib/master/starter.js - Executing cd /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server && node  /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js env=development  id=chat-server-2  host=10.0.1.44  port=6051  serverType=chat  locally
+[2013-03-15 10:27:38.826] [INFO] /node_modules/pomelo/lib/master/starter.js - Executing cd /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server && node  /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js env=development  id=chat-server-3  host=10.0.1.44  port=6052  serverType=chat  locally
+[2013-03-15 10:27:38.832] [INFO] /node_modules/pomelo/lib/master/starter.js - Executing cd /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server && node  /Users/xiaochuan/Documents/GitHub/candy/Server/ChatDemoOfPomelo/game-server/app.js env=development  id=gate-server-1  host=10.0.1.44  clientPort=3014  frontend=true  serverType=gate  locally
+[2013-03-15 10:27:38.840] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "master", "127.0.0.1", 3005
+[2013-03-15 10:27:38.958] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-03-15 10:27:38.959] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-03-15 10:27:39.020] [INFO] console - [32m[2013-03-15 10:27:39.007] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-2"
+
+[2013-03-15 10:27:39.039] [INFO] console - [32m[2013-03-15 10:27:39.020] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "chat-server-3"
+
+[2013-03-15 10:27:39.040] [INFO] console - [32m[2013-03-15 10:27:39.025] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "chat-server-1"
+
+[2013-03-15 10:27:39.045] [INFO] console - [32m[2013-03-15 10:27:39.028] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-03-15 10:27:39.055] [INFO] console - [32m[2013-03-15 10:27:39.032] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-3"
+
+[2013-03-15 10:27:39.058] [INFO] console - [32m[2013-03-15 10:27:39.025] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-03-15 10:27:39.066] [INFO] console - [32m[2013-03-15 10:27:39.036] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "chat-server-2"
+
+[2013-03-15 10:27:39.533] [INFO] console - [32m[2013-03-15 10:27:39.532] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-03-15 10:27:39.550] [INFO] console - [32m[2013-03-15 10:27:39.549] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-03-15 10:27:39.552] [INFO] console - [32m[2013-03-15 10:27:39.551] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-03-15 10:27:39.560] [INFO] console - [32m[2013-03-15 10:27:39.559] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-03-15 10:27:39.562] [INFO] console - [32m[2013-03-15 10:27:39.555] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-03-15 10:27:39.562] [INFO] console - [32m[2013-03-15 10:27:39.561] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-03-15 10:27:39.568] [INFO] console - [32m[2013-03-15 10:27:39.567] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "chat", "127.0.0.1", 3005
+
+[2013-03-15 10:27:39.573] [INFO] console - [32m[2013-03-15 10:27:39.573] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-03-15 10:27:39.584] [INFO] console - [32m[2013-03-15 10:27:39.584] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "chat", "127.0.0.1", 3005
+
+[2013-03-15 10:27:39.585] [INFO] console - [32m[2013-03-15 10:27:39.583] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-03-15 10:27:39.589] [INFO] console - [32m[2013-03-15 10:27:39.588] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-03-15 10:27:39.600] [INFO] console - [32m[2013-03-15 10:27:39.599] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-03-15 10:27:39.600] [INFO] console - [32m[2013-03-15 10:27:39.591] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "chat", "127.0.0.1", 3005
+
+[2013-03-15 10:27:39.644] [INFO] console - [32m[2013-03-15 10:27:39.644] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-2" enter after start...
+
+[2013-03-15 10:27:39.646] [INFO] console - info: socket.io started
+[32m[2013-03-15 10:27:39.645] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-2" finish start
+
+[2013-03-15 10:27:39.654] [INFO] console - [32m[2013-03-15 10:27:39.652] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-3" enter after start...
+
+[2013-03-15 10:27:39.657] [INFO] console - [32m[2013-03-15 10:27:39.656] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-3" finish start
+
+[2013-03-15 10:27:39.659] [INFO] console - [32m[2013-03-15 10:27:39.659] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-03-15 10:27:39.662] [INFO] console - info: socket.io started
+
+[2013-03-15 10:27:39.662] [INFO] console - [32m[2013-03-15 10:27:39.661] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-3" enter after start...
+info: socket.io started
+
+[2013-03-15 10:27:39.662] [INFO] console - [32m[2013-03-15 10:27:39.662] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-03-15 10:27:39.663] [INFO] console - [32m[2013-03-15 10:27:39.663] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-3" finish start
+
+[2013-03-15 10:27:39.664] [INFO] console - [32m[2013-03-15 10:27:39.663] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-1" enter after start...
+
+[2013-03-15 10:27:39.664] [INFO] console - [32m[2013-03-15 10:27:39.664] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-1" finish start
+
+[2013-03-15 10:27:39.664] [INFO] console - [32m[2013-03-15 10:27:39.664] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-03-15 10:27:39.665] [INFO] console - info: socket.io started
+
+[2013-03-15 10:27:39.665] [INFO] console - [32m[2013-03-15 10:27:39.665] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-03-15 10:27:39.668] [INFO] console - [32m[2013-03-15 10:27:39.668] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-2" enter after start...
+
+[2013-03-15 10:27:39.668] [INFO] console - [32m[2013-03-15 10:27:39.668] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-2" finish start
+
