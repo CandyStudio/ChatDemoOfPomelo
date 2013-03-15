@@ -4,3 +4,5 @@
 *.log
 
 game-server/logs/node-log-master-server-1.log
+
+game-server/logs/forward-log-connector-server-1.log
