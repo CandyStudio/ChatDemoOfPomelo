@@ -1,6 +1,12 @@
 /**
-*Init Chatlog
+*聊天记录数据类
 */
+
+
+/**
+ *@constructor
+ *@param {Object} 
+ */
 var Chatlog = function  (opts) {
 	this.id = opts.id;
 

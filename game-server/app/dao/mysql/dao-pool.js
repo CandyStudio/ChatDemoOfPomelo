@@ -1,3 +1,4 @@
+//数据库连接池
 var _poolModule = require('generic-pool');
 
 

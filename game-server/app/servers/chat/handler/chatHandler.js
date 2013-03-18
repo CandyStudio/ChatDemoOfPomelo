@@ -10,7 +10,14 @@ var Handler = function(app) {
 
 var handler = Handler.prototype;
 
-
+/**
+ * 查询聊天记录
+ *
+ * @param  {Object}   msg     request message
+ * @param  {Object}   session current session object
+ * @param  {Function} next    next stemp callback
+ * @return {Void}
+ */
 handler.query = function  (msg,session,next){
 
 	chatDao.query(msg.userid,msg.roomid,function 	 (err,res) {

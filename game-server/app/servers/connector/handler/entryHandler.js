@@ -67,6 +67,16 @@ handler.enter = function(msg, session, next) {
 
 
 };
+
+
+/**
+ * 进入房间
+ *
+ * @param  {Object}   msg     request message
+ * @param  {Object}   session current session object
+ * @param  {Function} next    next stemp callback
+ * @return {Void}
+ */
 handler.enterRoom = function(msg, session, next) {
 	var self = this;
 	// put user into channel
@@ -84,7 +94,14 @@ handler.enterRoom = function(msg, session, next) {
 		});
 	});
 };
-
+/**
+ * 创建房间
+ *
+ * @param  {Object}   msg     request message
+ * @param  {Object}   session current session object
+ * @param  {Function} next    next stemp callback
+ * @return {Void}
+ */
 handler.createRoom = function(msg, session, next) {
 	var roomDao = require('../../../dao/roomDao');
 
