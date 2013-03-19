@@ -104,3 +104,37 @@ handler.send = function(msg, session, next) {
 	})
 
 };
+
+
+/**
+ *退出房间
+ *
+ *@param {Object}msg   userid,username
+ *@param {Object}session
+ *@param {Function} 回调函数
+ */
+handler.quit =function(msg,session,cb){
+	var  channel = this.app.get('channelService').getChannel(session.get('rid'),false);
+	var username = msg.username;
+	var userid = msg.userid;
+	var sid = this.app.get('serverId')
+	console.log(username+'离开');
+	if( !! channel) {
+		var id = uid;
+		channel.leave(id, sid);
+	}
+	else
+	{
+		console.log('离开没有找到channel');
+	}
+	var param = {
+		route: 'onLeave',
+		username: username,
+		userid:user.id
+	};
+	channel.pushMessage(param);
+
+	cb(null,{
+		code:200
+	});
+};

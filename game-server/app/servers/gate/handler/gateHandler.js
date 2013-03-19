@@ -52,7 +52,7 @@ var userdao = require('../../../dao/userDao');
  * @next {Function} callback
  */
 handler.login = function(msg, session, next) {
-	
+
 	console.log(msg);
 	app = this.app;
 	userdao.getUserInfo(msg.username, function(err, users) {
@@ -74,6 +74,24 @@ handler.login = function(msg, session, next) {
 				return;
 			} else {
 				var user = users[0];
+				var uid = user.id + '*' + msg.username;
+				console.log(uid);
+				var sessionService = app.get('sessionService');
+
+				console.log(sessionService.getByUid(uid));
+				if ( !! sessionService.getByUid(uid)) {
+					console.log('重复登陆~~~~~~');
+					next(null, {
+						code: 500,
+						err: {
+							errorcode: consts.ErrorCode.ALREADYLOGIN,
+							msg: '已经登陆了~~~~~~'
+						}
+					});
+					return;
+				}
+
+
 				if (user.user_pwd !== msg.password) {
 					next(null, {
 						code: 500,
@@ -99,8 +117,8 @@ handler.login = function(msg, session, next) {
 				code: 200,
 				host: res.host,
 				port: res.clientPort,
-				userid:user.id,
-				role:user.user_role
+				userid: user.id,
+				role: user.user_role
 			});
 		};
 	});
@@ -141,14 +159,14 @@ handler.register = function(msg, session, next) {
 							});
 							return;
 						}
-						
+
 						var res = dispatcher.dispatch(userid, connectors);
 						console.log('注册成功');
 						next(null, {
 							code: 200,
 							host: res.host,
 							port: res.clientPort,
-							userid:userid
+							userid: userid
 						});
 
 					};

@@ -1,3 +1,4 @@
+var consts = require('../../../consts/consts');
 module.exports = function(app) {
 	return new Handler(app);
 };
@@ -22,14 +23,15 @@ handler.enter = function(msg, session, next) {
 	var username = msg.username;
 	var uid = msg.userid + '*' + username;
 	var sessionService = self.app.get('sessionService');
-	console.log('enter uid:' + uid);
-	console.log('enter sessionService:' + sessionService);
-	console.log('enter session:' + sessionService.getByUid(uid));
 	//duplicate log in
 	if ( !! sessionService.getByUid(uid)) {
+		console.log('重复登陆');
 		next(null, {
 			code: 500,
-			error: true
+			err:{
+				errorcode:3,
+				msg:'已经登陆了'
+			}
 		});
 		return;
 	}
@@ -130,8 +132,21 @@ handler.createRoom = function(msg, session, next) {
  */
 var onUserLeave = function(app, session) {
 	if (!session || !session.uid) {
+		console.log('用户离开 但没找到session uid');
 		return;
 	}
 
 	app.rpc.chat.chatRemote.kick(session, session.uid, session.get('user'), app.get('serverId'), session.get('rid'), null);
+
+
+
+
+
+	
+
+
+
+
+
+
 };
