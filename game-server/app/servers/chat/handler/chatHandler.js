@@ -27,7 +27,7 @@ handler.query = function  (msg,session,next){
 					err:err
 				});
 			} else{
-				console.log(res);
+
 				next(null,{
 					code:200,
 					chatlog:res
@@ -98,6 +98,7 @@ handler.send = function(msg, session, next) {
 			});
 		} else {
 			next(null, {
+				code:200,
 				route: msg.route
 			});
 		};
@@ -120,13 +121,16 @@ handler.quit =function(msg,session,cb){
 	var sid = this.app.get('serverId')
 	console.log(username+'离开');
 	if( !! channel) {
-		var id = uid;
+		var id = userid+'*'+username;
+		console.log('id:'+id);
+		console.log('sid:'+sid);
 		channel.leave(id, sid);
 	}
 	else
 	{
 		console.log('离开没有找到channel');
 	}
+	var user = session.get('user');
 	var param = {
 		route: 'onLeave',
 		username: username,

@@ -28,28 +28,46 @@ handler.enter = function(msg, session, next) {
 		console.log('重复登陆');
 		next(null, {
 			code: 500,
-			err:{
-				errorcode:3,
-				msg:'已经登陆了'
+			err: {
+				errorcode: 3,
+				msg: '已经登陆了'
 			}
 		});
 		return;
 	}
+
+	var onlineuser = this.app.get('onlineuser');
+	this.app.set('onlineuser', ++onlineuser);
+	console.log('当前在线人数:', onlineuser);
+
+
 	var channelService = self.app.get('channelService');
 	var c1 = channelService.getChannel('1', true);
 	var c2 = channelService.getChannel('2', true);
 	c1.channelname = 'name1';
 	c2.channelname = 'name2';
-	var channels = self.app.get('channelService').getChannels();
+	var channels = channelService.getChannels();
 	var names = [];
 	for (var c in channels) {
+		var ch = channels[c];
+        console.log(ch.getMembers());
+        console.log(ch.getMembers().length);
+        console.log(ch.usercount);
+        if(!!ch.usercount)
+        {
+
+        }
+        else{
+            ch.usercount = 0;
+        }
 		names.push({
 			id: c,
-			name:channels[c].channelname
+			name: ch.channelname,
+			count:ch.usercount
 		});
 	}
 	session.bind(uid);
-
+	session.on('closed', onUserLeave.bind(null, self.app));
 	var userDao = require('../../../dao/userDao');
 	userDao.getUserInfoByID(msg.userid, function(err, res) {
 		if ( !! err) {
@@ -64,7 +82,7 @@ handler.enter = function(msg, session, next) {
 				code: 200,
 				roomlist: names
 			})
-		};;
+		};
 	});
 
 
@@ -88,7 +106,7 @@ handler.enterRoom = function(msg, session, next) {
 			console.error('set rid for session service failed! error is : %j', err.stack);
 		}
 	});
-	session.on('closed', onUserLeave.bind(null, self.app));
+
 	self.app.rpc.chat.chatRemote.add(session, msg.userid, msg.username, self.app.get('serverId'), msg.channel, true, function(users) {
 		next(null, {
 			code: 200,
@@ -106,22 +124,51 @@ handler.enterRoom = function(msg, session, next) {
  */
 handler.createRoom = function(msg, session, next) {
 	var roomDao = require('../../../dao/roomDao');
-
+	var app = this.app;
 	roomDao.createRoom(msg.channel, msg.userid, function(err, roomid) {
-		
+
 		if ( !! err) {
 			next(null, {
 				code: 500,
-				err:err
+				err: err
 			});
 		} else {
-			var channel = next(null, {
+			var channelService = app.get('channelService');
+			console.log('创建房间:channelService:' + channelService);
+			var channel = channelService.createChannel(roomid);
+			console.log('创建房间:channel:' + channel);
+			channel.channelname = msg.channel;
+			next(null, {
 				code: 200,
-				roomid: roomid
+				roomid: roomid,
+                count:0
 			});
 		};
 	});
 };
+
+
+
+/**
+ *退出房间
+ *
+ *@param {Object}msg   userid,username
+ *@param {Object}session
+ *@param {Function} 回调函数
+ */
+handler.quit = function(msg, session, cb) {
+
+	var username = msg.username;
+	var userid = msg.userid;
+	var uid = userid + '*' + username;
+	var sid = this.app.get('serverId')
+	console.log(username + '离开');
+	this.app.rpc.chat.chatRemote.kick(session, uid, session.get('user'), sid, session.get('rid'), null);
+	cb(null, {
+		code: 200
+	});
+};
+
 
 /**
  * User log out handler
@@ -135,17 +182,14 @@ var onUserLeave = function(app, session) {
 		console.log('用户离开 但没找到session uid');
 		return;
 	}
+	var onlineuser = app.get('onlineuser');
+	app.set('onlineuser', --onlineuser);
+	console.log('当前在线人数:', onlineuser);
 
-	app.rpc.chat.chatRemote.kick(session, session.uid, session.get('user'), app.get('serverId'), session.get('rid'), null);
-
-
-
-
-
-	
-
-
-
+	var rid = session.get('rid');
+	if ( !! rid) {
+		app.rpc.chat.chatRemote.kick(session, session.uid, session.get('user'), app.get('serverId'), session.get('rid'), null);
+	};
 
 
 

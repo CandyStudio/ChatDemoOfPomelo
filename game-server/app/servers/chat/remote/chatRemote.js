@@ -31,7 +31,11 @@ ChatRemote.prototype.add = function(uid, username,sid, name, flag, cb) {
 	channel.pushMessage(param);
 
 	if( !! channel) {
+		console.log('add sid:'+sid);
 		channel.add(uid+'*'+username, sid);
+        console.log(channel.usercount);
+        channel.usercount++;
+        console.log(channel.usercount);
 	}
 
 	cb(this.get(name, flag));
@@ -73,13 +77,20 @@ ChatRemote.prototype.get = function(name, flag) {
  *
  */
 ChatRemote.prototype.kick = function(uid, user,sid, name) {
+	console.log('离开uid',uid);
+	console.log('离开sid',sid);
+	console.log('离开name',name);
 	var channel = this.channelService.getChannel(name, false);
 	// leave channel
 	var username = user.user_name;
+	console.log('离开username',username);
 	console.log(username+'离开');
 	if( !! channel) {
 		var id = uid;
 		channel.leave(id, sid);
+        console.log(channel.usercount);
+        channel.usercount--;
+        console.log(channel.usercount);
 	}
 	else
 	{

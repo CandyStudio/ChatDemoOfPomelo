@@ -24,3 +24,5 @@ game-server/logs/node-log-connector-server-3.log
 game-server/logs/node-log-gate-server-1.log
 
 .DS_Store
+
+game-server/logs/crash.log
