@@ -80,7 +80,8 @@ handler.enter = function(msg, session, next) {
 			session.push('user');
 			next(null, {
 				code: 200,
-				roomlist: names
+				roomlist: names,
+                onlineuser:onlineuser
 			})
 		};
 	});
