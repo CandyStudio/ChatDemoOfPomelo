@@ -124,6 +124,7 @@ handler.enterRoom = function(msg, session, next) {
  * @return {Void}
  */
 handler.createRoom = function(msg, session, next) {
+
 	var roomDao = require('../../../dao/roomDao');
 	var app = this.app;
 	roomDao.createRoom(msg.channel, msg.userid, function(err, roomid) {
