@@ -16,7 +16,7 @@ app.configure('production|development', function() {
 	// filter configures
 	app.loadConfig('mysql', app.getBase() + '/../shared/config/mysql.json');
 
-//	app.filter(pomelo.timeout());
+	app.filter(pomelo.timeout());
 });
 
 

@@ -94,7 +94,8 @@ handler.send = function (msg, session, next) {
                         type: chat['type'],
                         context: chat['context'],
                         createtime: chat['createtime'],
-                        room_id: chat['room_id']
+                        room_id: chat['room_id'],
+                        id:chat['id']
                     };
 
 //                    for(var t in chat){
@@ -168,4 +169,14 @@ handler.quit = function (msg, session, cb) {
     cb(null, {
         code: 200
     });
+};
+
+/**
+ *
+ * @param test
+ * @param test1
+ * @param test3
+ */
+var test = function(test,test1,test3){
+
 };
