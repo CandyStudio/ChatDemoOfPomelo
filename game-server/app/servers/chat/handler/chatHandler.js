@@ -48,13 +48,8 @@ handler.send = function(msg, session, next) {
 	var rid = session.get('rid');
 	var user = session.get('user');
 	var channelService = this.app.get('channelService');
-	var param = {
-		route: 'onChat',
-		msg: msg.content,
-		from: user.user_name,
-		target: msg.target
-	};
-	console.log(param);
+    var now = new Date() ;
+
 	channel = channelService.getChannel(rid, false);
 	var chat = {
 		fromuserid:user.id,
@@ -73,34 +68,47 @@ handler.send = function(msg, session, next) {
 	else {
 		chat.type = 1;
 		chat.touserid = msg.userid;
-		var tuid = msg.userid + '*' + msg.target;
-		console.log('tuid:' + tuid);
-		var member = channel.getMember(tuid);
-		console.log('member:' + member);
 
-		var tsid = member['sid'];
-		console.log('tsid:' + tsid);
-		channelService.pushMessageByUids(param, [{
-			uid: tuid,
-			sid: tsid
-		}]);
 	}
 	for(var s in chat){
 		console.log('聊天内容:'+s+':'+chat[s]);
 	}
 	
 	chatDao.insert(chat, function(err, res) {
-
+       console.log(err);
 		if ( !! err) {
 			next(null, {
 				code: 500,
 				route: msg.route
 			});
 		} else {
-			next(null, {
-				code:200,
-				route: msg.route
-			});
+
+            chatDao.queryByid(res.insertId,function(err,res){
+                if(!!err){
+
+                }else{
+                    var chat = res[0];
+                    if (msg.target === '*') {
+                        channel.pushMessage(chat);
+
+                    }
+                    else{
+                        var tuid = msg.userid + '*' + msg.target;
+                        var member = channel.getMember(tuid);
+                        var tsid = member['sid'];
+                        channelService.pushMessageByUids(chat, [{
+                            uid: tuid,
+                            sid: tsid
+                        }]);
+                    }
+                    next(null, {
+                        code:200,
+                        chat:res[0]
+                    });
+                }
+            })  ;
+
+
 		};
 	})
 

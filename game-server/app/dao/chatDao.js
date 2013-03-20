@@ -56,3 +56,25 @@ chatDao.query = function(userid, roomid, cb) {
 	})
 
 };
+
+/**
+ * 查询聊天记录 通过id
+ */
+chatDao.queryByid = function(chatid, cb) {
+    var sql = 'select * from t_sys_chatlog where id=? ';
+
+    vars = [chatid];
+
+    pomelo.app.get('dbclient').query(sql, vars, function(err, res) {
+        if (err !== null) {
+            utils.invokeCallback(cb, {
+                code: err.number,
+                msg: err.message
+            }, null);
+        } else {
+
+            utils.invokeCallback(cb, null, res);
+        };
+    })
+
+};
