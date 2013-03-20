@@ -48,9 +48,7 @@ handler.send = function(msg, session, next) {
 	var rid = session.get('rid');
 	var user = session.get('user');
 	var channelService = this.app.get('channelService');
-    var now = new Date() ;
-
-	channel = channelService.getChannel(rid, false);
+    var  channel = channelService.getChannel(session.get('rid'),false);
 	var chat = {
 		fromuserid:user.id,
 		fromusername:user.user_name,
@@ -58,9 +56,10 @@ handler.send = function(msg, session, next) {
 		tousername : msg.target,
 		cocntext:msg.content
 	};
+
 	//the target is all users
 	if (msg.target === '*') {
-		channel.pushMessage(param);
+
 		chat.type = 0;
 		chat.touserid = 0;
 	}
@@ -79,31 +78,54 @@ handler.send = function(msg, session, next) {
 		if ( !! err) {
 			next(null, {
 				code: 500,
-				route: msg.route
+                err: err
 			});
 		} else {
 
             chatDao.queryByid(res.insertId,function(err,res){
                 if(!!err){
-
+                    next(null, {
+                        code: 500,
+                        err: err
+                    });
                 }else{
                     var chat = res[0];
+                    var theChat = {route:'onChat',
+                        from_user_name:chat['from_user_name'],
+                        to_user_id:chat['to_user_id'],
+                        to_user_name:chat['to_user_name'],
+                        type:chat['type'],
+                        context:chat['context'],
+                        createtime:chat['createtime'],
+                        room_id:chat['room_id']
+                    };
+
+//                    for(var t in chat){
+//                        if(chat.hasOwnProperty(t)){
+//                            theChat[t] = chat[t];
+//                            console.log('key:'+t +'value:'+chat[t]);
+//                        }
+//
+//                    }
+                    var members = channel.getMembers();
+
                     if (msg.target === '*') {
-                        channel.pushMessage(chat);
+                        channel.pushMessage(theChat);
 
                     }
                     else{
                         var tuid = msg.userid + '*' + msg.target;
                         var member = channel.getMember(tuid);
                         var tsid = member['sid'];
-                        channelService.pushMessageByUids(chat, [{
+                        channelService.pushMessageByUids(theChat, [{
                             uid: tuid,
                             sid: tsid
                         }]);
                     }
                     next(null, {
                         code:200,
-                        chat:res[0]
+                        chat:res[0],
+                        route:"onChat"
                     });
                 }
             })  ;

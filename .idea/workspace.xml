@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="777a7766-ee73-4cf1-ab14-79dfbba79b6b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game-server/app.js" afterPath="$PROJECT_DIR$/game-server/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game-server/app/dao/chatDao.js" afterPath="$PROJECT_DIR$/game-server/app/dao/chatDao.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game-server/app/servers/chat/handler/chatHandler.js" afterPath="$PROJECT_DIR$/game-server/app/servers/chat/handler/chatHandler.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game-server/config/servers.json" afterPath="$PROJECT_DIR$/game-server/config/servers.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game-server/node_modules/pomelo/lib/master/starter.js" afterPath="$PROJECT_DIR$/game-server/node_modules/pomelo/lib/master/starter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ChatDemoOfPomelo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363746178210" ignored="false" />
+    <file path="/Dummy.txt" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363760456459" ignored="false" />
     <file path="/entryHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363693895672" ignored="false" />
     <file path="/chatRemote.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363689921166" ignored="false" />
     <file path="/servers.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363744046899" ignored="false" />
-    <file path="/chatHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363748977953" ignored="false" />
+    <file path="/chatHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363761403436" ignored="false" />
     <file path="/a.dummy" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363745961005" ignored="false" />
     <file path="/starter.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363746899978" ignored="false" />
-    <file path="/chatDao.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363748746290" ignored="false" />
+    <file path="/chatDao.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363750873804" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,28 +37,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="entryHandler.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="50" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="roomDao.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game-server/app/dao/roomDao.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="55" selection-start="653" selection-end="662" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="chatHandler.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game-server/app/servers/chat/handler/chatHandler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="37" selection-start="2242" selection-end="2246" vertical-scroll-proportion="0.5707547">
+            <state line="160" column="15" selection-start="3938" selection-end="3938" vertical-scroll-proportion="0.50765604">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entryHandler.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="110" column="37" selection-start="2474" selection-end="2474" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,7 +58,7 @@
       <file leaf-file-name="chatRemote.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game-server/app/servers/chat/remote/chatRemote.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="53" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.0">
+            <state line="18" column="59" selection-start="425" selection-end="429" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,7 +76,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game-server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="22" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+            <state line="19" column="33" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,7 +85,7 @@
       <file leaf-file-name="chatDao.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game-server/app/dao/chatDao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="46" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.0">
+            <state line="31" column="50" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,7 +94,7 @@
       <file leaf-file-name="gateHandler.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game-server/app/servers/gate/handler/gateHandler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="17" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.0">
+            <state line="84" column="37" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,7 +103,7 @@
       <file leaf-file-name="servers.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game-server/config/servers.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="163" selection-start="822" selection-end="822" vertical-scroll-proportion="-12.064516">
+            <state line="17" column="26" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,15 +132,16 @@
         <option value="$PROJECT_DIR$/game-server/app/servers/chat/remote/chatRemote.js" />
         <option value="$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js" />
         <option value="$PROJECT_DIR$/game-server/node_modules/pomelo/lib/master/starter.js" />
-        <option value="$PROJECT_DIR$/game-server/config/servers.json" />
         <option value="$PROJECT_DIR$/game-server/app/dao/chatDao.js" />
+        <option value="$PROJECT_DIR$/game-server/config/servers.json" />
+        <option value="$PROJECT_DIR$/game-server/app.js" />
         <option value="$PROJECT_DIR$/game-server/app/servers/chat/handler/chatHandler.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-609" />
-    <option name="y" value="593" />
+    <option name="x" value="4" />
+    <option name="y" value="22" />
     <option name="width" value="2556" />
     <option name="height" value="1418" />
   </component>
@@ -330,6 +322,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatDemoOfPomelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatDemoOfPomelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -532,17 +554,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-609" y="593" width="2556" height="1418" extended-state="0" />
+    <frame x="4" y="22" width="2556" height="1418" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299532" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24990067" sideWeight="0.6700468" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1444927" sideWeight="0.6007692" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14330833" sideWeight="0.6746154" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39923078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975766" sideWeight="0.6700468" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32538462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32538462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -630,11 +652,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/game-server/app/servers/gate/handler/gateHandler.js</url>
-          <line>55</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/game-server/app/servers/gate/handler/gateHandler.js</url>
           <line>21</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -642,6 +659,11 @@
           <url>file://$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js</url>
           <line>21</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/game-server/app/servers/chat/handler/chatHandler.js</url>
+          <line>47</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -651,17 +673,10 @@
           </selected-grouping-rules>
         </breakpoints-dialog>
       </breakpoints-dialog>
-      <option name="time" value="18" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="40" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="27" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
@@ -694,39 +709,14 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js">
+    <entry file="file://$PROJECT_DIR$/game-server/app/util/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="50" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="55" selection-start="72" selection-end="72" vertical-scroll-proportion="0.10365135" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game-server/app/dao/roomDao.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="55" selection-start="653" selection-end="662" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/config/servers.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="163" selection-start="822" selection-end="822" vertical-scroll-proportion="-12.064516">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/app/servers/gate/handler/gateHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="17" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="27" column="55" selection-start="653" selection-end="662" vertical-scroll-proportion="0.56537104" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game-server/node_modules/pomelo/lib/master/starter.js">
@@ -736,23 +726,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/app/servers/chat/remote/chatRemote.js">
+    <entry file="file://$PROJECT_DIR$/game-server/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="53" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.0">
+        <state line="19" column="33" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game-server/app/dao/chatDao.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="46" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.0">
+        <state line="31" column="50" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game-server/app/servers/chat/remote/chatRemote.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="59" selection-start="425" selection-end="429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="37" selection-start="2474" selection-end="2474" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game-server/config/servers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game-server/app/servers/gate/handler/gateHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="37" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game-server/app/servers/chat/handler/chatHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="37" selection-start="2242" selection-end="2246" vertical-scroll-proportion="0.5707547">
+        <state line="160" column="15" selection-start="3938" selection-end="3938" vertical-scroll-proportion="0.50765604">
           <folding />
         </state>
       </provider>

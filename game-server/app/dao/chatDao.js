@@ -21,13 +21,7 @@ chatDao.insert = function(chat, cb) {
 		if (err !== null) {
 			utils.invokeCallback(cb, err, null);
 		} else {
-			if ( !! res && res.length === 1) {
-
-				utils.invokeCallback(cb, null, res);
-
-			} else {
-				utils.invokeCallback(cb, null, []);
-			};
+			utils.invokeCallback(cb, null, res);
 		};
 	});
 };
@@ -61,6 +55,7 @@ chatDao.query = function(userid, roomid, cb) {
  * 查询聊天记录 通过id
  */
 chatDao.queryByid = function(chatid, cb) {
+    console.log('chatid :'+chatid);
     var sql = 'select * from t_sys_chatlog where id=? ';
 
     vars = [chatid];
@@ -75,6 +70,6 @@ chatDao.queryByid = function(chatid, cb) {
 
             utils.invokeCallback(cb, null, res);
         };
-    })
+    }) ;
 
 };

@@ -26,3 +26,5 @@ game-server/logs/node-log-gate-server-1.log
 .DS_Store
 
 game-server/logs/crash.log
+
+.idea/workspace.xml
