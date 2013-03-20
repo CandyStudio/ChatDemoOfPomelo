@@ -33,7 +33,7 @@ chatDao.insert = function(chat, cb) {
  *@return {Array}
  */
 chatDao.query = function(userid, roomid, cb) {
-    var sql = 'select * from t_sys_chatlog where (type=0 or from_user_id=? or to_user_id=?) and room_id = ? limit 200';
+    var sql = 'select * from t_sys_chatlog where (type=0 or from_user_id=? or to_user_id=?) and room_id = ? order by id desc limit 200';
 
     vars = [ userid,userid,roomid];
 
@@ -67,7 +67,7 @@ chatDao.queryByid = function(chatid, cb) {
                 msg: err.message
             }, null);
         } else {
-
+            console.log('res:'+res);
             utils.invokeCallback(cb, null, res);
         };
     }) ;

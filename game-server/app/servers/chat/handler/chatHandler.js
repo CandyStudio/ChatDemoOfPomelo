@@ -78,7 +78,7 @@ handler.send = function (msg, session, next) {
                 err: err
             });
         } else {
-
+           var id = res.insertId;
             chatDao.queryByid(res.insertId, function (err, res) {
                 if (!!err) {
                     next(null, {
@@ -89,13 +89,14 @@ handler.send = function (msg, session, next) {
                     var chat = res[0];
                     var theChat = {route: 'onChat',
                         from_user_name: chat['from_user_name'],
+                        from_user_id:chat['from_user_id'],
                         to_user_id: chat['to_user_id'],
                         to_user_name: chat['to_user_name'],
                         type: chat['type'],
                         context: chat['context'],
                         createtime: chat['createtime'],
                         room_id: chat['room_id'],
-                        id:chat['id']
+                        tid:id
                     };
 
 //                    for(var t in chat){
