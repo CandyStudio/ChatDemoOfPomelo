@@ -36,7 +36,7 @@ roomDao.createRoom = function  (name,create,cb) {
  *获得所有房间
  *@return {Array}
  */
-roomDao.getAllRoom = function  () {
+roomDao.getAllRoom = function  (cb) {
 	var sql = 'select * from t_sys_room ';
 	
 

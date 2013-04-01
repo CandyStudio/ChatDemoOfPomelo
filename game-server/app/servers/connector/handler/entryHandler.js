@@ -16,7 +16,7 @@ var handler = Handler.prototype;
  * @param  {Object}   msg     request message
  * @param  {Object}   session current session object
  * @param  {Function} next    next stemp callback
- * @return {Void}
+ * @return {void}
  */
 handler.enter = function(msg, session, next) {
 	var self = this;
@@ -83,7 +83,7 @@ handler.enter = function(msg, session, next) {
 				roomlist: names,
                 onlineuser:onlineuser
 			})
-		};
+		}
 	});
 
 
@@ -191,7 +191,7 @@ var onUserLeave = function(app, session) {
 	var rid = session.get('rid');
 	if ( !! rid) {
 		app.rpc.chat.chatRemote.kick(session, session.uid, session.get('user'), app.get('serverId'), session.get('rid'), null);
-	};
+	}
 
 
 

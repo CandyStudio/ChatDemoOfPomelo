@@ -25,8 +25,7 @@ var createMysqlPool = function  (app) {
 		},
 		max: 10,
 		idleTimeoutMillis: 30000,
-		log: false,
-		
+		log: false
 	});
 };
 

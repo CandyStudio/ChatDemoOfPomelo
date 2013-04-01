@@ -2,32 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="777a7766-ee73-4cf1-ab14-79dfbba79b6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game-server/app/dao/chatDao.js" afterPath="$PROJECT_DIR$/game-server/app/dao/chatDao.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/ChatDemoOfPomelo.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game-server/app/servers/chat/handler/chatHandler.js" afterPath="$PROJECT_DIR$/game-server/app/servers/chat/handler/chatHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game-server/app/dao/mysql/dao-pool.js" afterPath="$PROJECT_DIR$/game-server/app/dao/mysql/dao-pool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js" afterPath="$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/config/mysql.json" afterPath="$PROJECT_DIR$/shared/config/mysql.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-server/public/js/registerClient.js" afterPath="$PROJECT_DIR$/web-server/public/js/registerClient.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game-server/app/dao/roomDao.js" afterPath="$PROJECT_DIR$/game-server/app/dao/roomDao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game-server/config/servers.json" afterPath="$PROJECT_DIR$/game-server/config/servers.json" />
     </list>
     <ignored path="ChatDemoOfPomelo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363783247566" ignored="false" />
-    <file path="/entryHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363693895672" ignored="false" />
-    <file path="/chatRemote.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363689921166" ignored="false" />
-    <file path="/servers.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363744046899" ignored="false" />
-    <file path="/chatHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363785260793" ignored="false" />
-    <file path="/a.dummy" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363745961005" ignored="false" />
+    <file path="/Dummy.txt" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364804679604" ignored="false" />
+    <file path="/entryHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364820375622" ignored="false" />
+    <file path="/chatRemote.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364820484769" ignored="false" />
+    <file path="/servers.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364633289402" ignored="false" />
+    <file path="/chatHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364823047128" ignored="false" />
+    <file path="/a.dummy" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364808626088" ignored="false" />
     <file path="/starter.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363746899978" ignored="false" />
     <file path="/chatDao.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363783392420" ignored="false" />
     <file path="/application.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363767912000" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/mysql/test/integration/connection/test-host-denied-error.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/node_modules/uglify-js/tmp/test.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
-    <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/socket.io/node_modules/redis/index.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
-    <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/node_modules/uglify-js/tmp/app.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/index.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/util/utils.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
-    <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/lib/util/utils.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/node_modules/uglify-js/test/unit/scripts.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
-    <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/socket.io/node_modules/redis/test.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
-    <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/Tokenizer.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
-    <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/socket.io/node_modules/socket.io-client/dist/socket.io.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/socket.io/node_modules/socket.io-client/lib/json.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/socket.io/node_modules/socket.io-client/dist/socket.io.min.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/toobusy/node_modules/bindings/bindings.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
@@ -36,18 +37,13 @@
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/swfobject.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/web-server/node_modules/express/node_modules/connect/lib/connect.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/mysql/test/integration/connection/test-bad-credentials.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
-    <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/Tokenizer.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
-    <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/dist/socket.io.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/ws/lib/WebSocket.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/json.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/dist/socket.io.min.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/util.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/node_modules/active-x-obfuscator/index.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
-    <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/ws/lib/Receiver.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/mysql/node_modules/bignumber.js/test/browser/every-test.html" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/vendor/web-socket-js/swfobject.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
-    <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/Tokenizer.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
-    <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/dist/socket.io.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/lib/json.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/dist/socket.io.min.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
     <file path="$PROJECT_DIR$/web-server/node_modules/express/node_modules/connect/node_modules/formidable/test/integration/test-fixtures.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101474" ignored="false" />
@@ -66,25 +62,114 @@
     <file path="$PROJECT_DIR$/game-server/node_modules/mysql/node_modules/bignumber.js/bignumber.min.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/scripts.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/node_modules/uglify-js/tmp/uglify-hangs.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
-    <file path="$PROJECT_DIR$/web-server/node_modules/express/node_modules/qs/test/browser/jquery.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
-    <file path="$PROJECT_DIR$/web-server/node_modules/express/node_modules/qs/test/browser/mocha.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/node_modules/uglify-js/tmp/test.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/node_modules/uglify-js/lib/parse-js.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
-    <file path="$PROJECT_DIR$/web-server/public/js/lib/socket.io.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/node_modules/uglify-js/lib/process.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
     <file path="$PROJECT_DIR$/web-server/node_modules/express/node_modules/qs/test/browser/expect.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/mysql/node_modules/bignumber.js/perf/bignumber-vs-bigdecimal.html" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-admin/index.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
-    <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/node_modules/uglify-js/tmp/app.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
-    <file path="$PROJECT_DIR$/web-server/public/js/lib/jquery-1.8.0.min.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/mysql/node_modules/bignumber.js/perf/bigtime.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/node_modules/uglify-js/tmp/embed-tokens.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/mysql/node_modules/bignumber.js/perf/bigtime-OOM.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
     <file path="$PROJECT_DIR$/web-server/node_modules/express/node_modules/mime/mime.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-admin/node_modules/socket.io-client/node_modules/uglify-js/tmp/uglify-hangs.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
     <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/node_modules/uglify-js/test/unit/scripts.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
-    <file path="$PROJECT_DIR$/game-server/node_modules/pomelo/lib/pomelo.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363768101476" ignored="false" />
-    <file path="/a.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363770432964" ignored="false" />
+    <file path="/a.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363848009632" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app/servers/chat/remote/chatRemote.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364799261569" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/shared/config/mysql.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363916476724" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364035003040" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app/dao/mysql/dao-pool.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363917386845" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app/dao/mysql/mysql.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363917443534" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/logs/tmp" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363919354380" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/node_modules/pomelo/node_modules/pomelo-logger/package.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363918460079" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/node_modules/pomelo/node_modules/pomelo-logger/node_modules/log4js/lib/log4js.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363918569591" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/node_modules/pomelo/node_modules/pomelo-logger/node_modules/log4js/package.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363918569591" ignored="false" />
+    <file path="/app.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364008548579" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app/servers/chat/handler/chatHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364022284995" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app/dao/chatDao.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364020255356" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app/servers/chat/handler/roomHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364028112074" ignored="false" />
+    <file path="/roomHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364027669140" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app/util/utils.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363924464184" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/config/servers.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364030723294" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app/dao/roomDao.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364033076759" ignored="false" />
+    <file path="/roomDao.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364032908799" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app/dao/userDao.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363939715124" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app/servers/gate/handler/gateHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364042652272" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/package.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364020255350" ignored="false" />
+    <file path="/register.html" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363940758473" ignored="false" />
+    <file path="/test.html" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364022853458" ignored="false" />
+    <file path="/registerClient.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1363941979689" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app/servers/connector/handler/entryHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364818164812" ignored="false" />
+    <file path="/testClient.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364632541840" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/logs/node-log-gate-server-1.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364042532413" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/logs/node-log-master-server-1.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364348453531" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/logs/node-log-connector-server-2.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364004508070" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/logs/node-log-connector-server-3.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364004508070" ignored="false" />
+    <file path="$PROJECT_DIR$/../source/chatofpomelo/game-server/app/servers/connector/handler/entryHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364003329659" ignored="false" />
+    <file path="$PROJECT_DIR$/../source/chatofpomelo/game-server/package.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364003329659" ignored="false" />
+    <file path="$PROJECT_DIR$/../source/chatofpomelo/web-server/package.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364003329659" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app/util/routeUtil.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364020255355" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/config/mysql.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364032687923" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app/util/dispatcher.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364020255356" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/UserCenterServer/app/Consts/Const.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364020255529" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/logs/node-log-chat-server-1.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364348453531" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/logs/node-log-connector-server-1.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364348453531" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/logs/node-log-chat-server-3.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364348453531" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/logs/node-log-chat-server-2.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364042532413" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/UserCenterServer/app/router.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364028688754" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/app/consts/consts.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364031727641" ignored="false" />
+    <file path="/consts.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364796298366" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/game-server/node_modules/pomelo/lib/common/service/channelService.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364036564190" ignored="false" />
+    <file path="/channelService.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364036004953" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/servers/gate/handler/gateHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364612359117" ignored="false" />
+    <file path="/gateHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364612024833" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/servers/connector/handler/entryHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364823374651" ignored="false" />
+    <file path="$PROJECT_DIR$/../ChatServer/shared/config/keys.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364612781764" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/config/keys.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364612810299" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/servers/auth/remote/authRemote.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364655566623" ignored="false" />
+    <file path="/authRemote.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364655531667" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/consts/consts.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364796299492" ignored="false" />
+    <file path="/router.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364793807260" ignored="false" />
+    <file path="$PROJECT_DIR$/../UserCenter/app/router.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364794055316" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/servers/hall/remote/hallRemote.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364633233664" ignored="false" />
+    <file path="/hallRemote.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364820510946" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/logs/node-log-master-server-1.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364808751391" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/logs/node-log-gate-server-1.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364811083914" ignored="false" />
+    <file path="$PROJECT_DIR$/../UserCenter/package.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364630280832" ignored="false" />
+    <file path="$PROJECT_DIR$/../UserCenter/app.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364625591514" ignored="false" />
+    <file path="$PROJECT_DIR$/../UserCenter/app/friend.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364656942094" ignored="false" />
+    <file path="$PROJECT_DIR$/../UserCenter/app/example.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364640417100" ignored="false" />
+    <file path="$PROJECT_DIR$/../UserCenter/app/dao/User.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364640417100" ignored="false" />
+    <file path="$PROJECT_DIR$/../UserCenter/app/dao/index.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364629324126" ignored="false" />
+    <file path="/a.html" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364629744989" ignored="false" />
+    <file path="/a.xml" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364629746033" ignored="false" />
+    <file path="/friend.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364656910684" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/config/servers.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364633409632" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/servers/texasHall/remote/hallRemote.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364820614471" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/logs/node-log-hall-server-1.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364823072459" ignored="false" />
+    <file path="$PROJECT_DIR$/../UserCenter/app/dao/Relationship.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364640417100" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/package.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364779139722" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/config/texaspoker_mysql.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364786358740" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/logs/node-log-connector-server-1.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364823072459" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/logs/node-log-auth-server-1.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364802882428" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/model/player.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364653146617" ignored="false" />
+    <file path="/player.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364653014016" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364810128028" ignored="false" />
+    <file path="$PROJECT_DIR$/../UserCenter/app/utils/validator.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364793680753" ignored="false" />
+    <file path="/validator.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364793678874" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/config/texaspoker_rooms.json" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364781326317" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/logs/node-log-room-server-1.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364782966751" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/domain/room.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364782739248" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/servers/texasRoom/remote/roomRemote.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364782739248" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/servers/chat/remote/chatRemote.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364823337025" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/servers/texasHall/handler/hallHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364818404272" ignored="false" />
+    <file path="/hallHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364818400390" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/servers/chat/handler/chatHandler.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364823170801" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/logs/node-log-chat-server-1.log" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364823072459" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/dao/Rooms.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364805205793" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/dao/Players.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364805225469" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/dao/Match.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364805233175" ignored="false" />
+    <file path="$PROJECT_DIR$/../TexasPoker/game-server/app/util/routeUtil.js" changelist="777a7766-ee73-4cf1-ab14-79dfbba79b6b" time="1364810090165" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,91 +189,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="chatHandler.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/game-server/app/servers/chat/handler/chatHandler.js">
+      <file leaf-file-name="gateHandler.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game-server/app/servers/gate/handler/gateHandler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="161" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.13365735">
+            <state line="44" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game-server/app/util/utils.js">
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-server/public/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
+            <state line="16" column="60" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chatDao.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game-server/app/dao/chatDao.js">
+      <file leaf-file-name="testClient.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-server/public/js/testClient.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="134" selection-start="1019" selection-end="1138" vertical-scroll-proportion="0.0">
+            <state line="78" column="103" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.53899086">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game-server/app/dao/mysql/mysql.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-server/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+            <state line="35" column="73" selection-start="948" selection-end="959" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sequence.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game-server/node_modules/mysql/lib/protocol/sequences/Sequence.js">
+      <file leaf-file-name="entryHandler.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="0" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.0">
+            <state line="78" column="34" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Query.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game-server/node_modules/mysql/lib/protocol/sequences/Query.js">
+      <file leaf-file-name="channelService.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game-server/node_modules/pomelo/lib/common/service/channelService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="0" selection-start="3553" selection-end="3553" vertical-scroll-proportion="0.0">
+            <state line="61" column="18" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="handlerService.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game-server/node_modules/pomelo/lib/common/service/handlerService.js">
+      <file leaf-file-name="dispatcher.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game-server/app/util/dispatcher.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
+            <state line="5" column="2" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game-server/node_modules/pomelo/lib/server/server.js">
+      <file leaf-file-name="chatRemote.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game-server/app/servers/chat/remote/chatRemote.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="239" column="0" selection-start="5330" selection-end="5330" vertical-scroll-proportion="0.0">
+            <state line="18" column="49" selection-start="411" selection-end="419" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filterService.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game-server/node_modules/pomelo/lib/common/service/filterService.js">
+      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-server/public/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="timeout.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game-server/node_modules/pomelo/lib/filters/handler/timeout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+            <state line="1" column="4" selection-start="11" selection-end="412" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -213,24 +289,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/game-server/app/domain/error.js" />
-        <option value="$PROJECT_DIR$/game-server/app/servers/chat/remote/chatRemote.js" />
-        <option value="$PROJECT_DIR$/game-server/node_modules/pomelo/lib/master/starter.js" />
-        <option value="$PROJECT_DIR$/game-server/config/servers.json" />
-        <option value="$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js" />
-        <option value="$PROJECT_DIR$/game-server/node_modules/pomelo/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/tmp/app.js" />
-        <option value="$PROJECT_DIR$/game-server/node_modules/pomelo/lib/application.js" />
-        <option value="$PROJECT_DIR$/game-server/app.js" />
         <option value="$PROJECT_DIR$/game-server/app/dao/chatDao.js" />
+        <option value="$PROJECT_DIR$/game-server/app.js" />
+        <option value="$PROJECT_DIR$/game-server/app/dao/mysql/dao-pool.js" />
+        <option value="$PROJECT_DIR$/game-server/app/servers/chat/remote/chatRemote.js" />
+        <option value="$PROJECT_DIR$/game-server/app/util/routeUtil.js" />
         <option value="$PROJECT_DIR$/game-server/app/servers/chat/handler/chatHandler.js" />
+        <option value="$PROJECT_DIR$/game-server/app/dao/roomDao.js" />
+        <option value="$PROJECT_DIR$/web-server/public/register.html" />
+        <option value="$PROJECT_DIR$/web-server/public/js/test.html" />
+        <option value="$PROJECT_DIR$/game-server/config/servers.json" />
+        <option value="$PROJECT_DIR$/shared/config/mysql.json" />
+        <option value="$PROJECT_DIR$/web-server/public/js/registerClient.js" />
+        <option value="$PROJECT_DIR$/web-server/public/test.html" />
+        <option value="$PROJECT_DIR$/game-server/node_modules/pomelo/lib/common/service/channelService.js" />
+        <option value="$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js" />
+        <option value="$PROJECT_DIR$/web-server/public/js/testClient.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="22" />
-    <option name="width" value="2556" />
-    <option name="height" value="1418" />
+    <option name="x" value="319" />
+    <option name="y" value="134" />
+    <option name="width" value="1801" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -287,7 +369,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="game-server" />
+              <option name="myItemId" value="web-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatDemoOfPomelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatDemoOfPomelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatDemoOfPomelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChatDemoOfPomelo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,10 +424,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="game-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,28 +497,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChatDemoOfPomelo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChatDemoOfPomelo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -408,28 +504,22 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="options.lastSelected" value="application.passwordSafe" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UserCenter" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/game-server" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Node.js Remote Debug.GameServer">
-    <configuration default="false" name="ChatServer" type="NodeJSConfigurationType" factoryName="Node.js" singleton="true" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/game-server">
-      <RunnerSettings RunnerId="NodeJS.debug" />
-      <RunnerSettings RunnerId="NodeJS.run" />
-      <ConfigurationWrapper RunnerId="NodeJS.debug" />
-      <ConfigurationWrapper RunnerId="NodeJS.run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/game-server">
-      <RunnerSettings RunnerId="NodeJS.debug" />
-      <ConfigurationWrapper RunnerId="NodeJS.debug" />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web-server/public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.DemoWeb">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -459,23 +549,22 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="false" name="GameServer" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug" singleton="true">
-      <node-js-remote-debug debug-port="8787" local-path="$PROJECT_DIR$/game-server" />
+    <configuration default="false" name="DemoWeb" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/web-server">
       <RunnerSettings RunnerId="NodeJS.debug" />
+      <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Node.js Remote Debug.GameServer" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.ChatServer" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.app.js" />
+    <configuration default="false" name="DemoServer" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/game-server">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.DemoWeb" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.DemoServer" />
     </list>
-    <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.ChatServer" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.app.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
@@ -533,24 +622,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="2556" height="1418" extended-state="6" />
+    <frame x="319" y="134" width="1801" height="1020" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32809916" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32809916" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24990067" sideWeight="0.6700468" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14330833" sideWeight="0.6746154" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39923078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17097862" sideWeight="0.7488889" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39917356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975766" sideWeight="0.6700468" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32538462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32809916" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25111112" sideWeight="0.9966235" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975206" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -617,38 +706,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js</url>
-          <line>128</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js</url>
-          <line>162</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js</url>
-          <line>182</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/game-server/app/servers/gate/handler/gateHandler.js</url>
-          <line>21</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js</url>
-          <line>21</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/game-server/app/servers/chat/handler/chatHandler.js</url>
-          <line>46</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
           <selected-grouping-rules>
@@ -656,118 +713,104 @@
           </selected-grouping-rules>
         </breakpoints-dialog>
       </breakpoints-dialog>
-      <option name="time" value="25" />
+      <option name="time" value="34" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/game-server/app.js">
+    <entry file="file://$PROJECT_DIR$/game-server/app/util/routeUtil.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="161" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="1" selection-start="359" selection-end="359" vertical-scroll-proportion="0.42531645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game-server/config/servers.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="804" selection-end="804" vertical-scroll-proportion="-12.064516">
-          <folding />
-        </state>
+        <state line="12" column="15" selection-start="413" selection-end="423" vertical-scroll-proportion="-8.727273" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/config/mysql.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="41" selection-start="263" selection-end="263" vertical-scroll-proportion="-12.363636" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game-server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="202" selection-end="202" vertical-scroll-proportion="0.18848167" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-server/public/js/registerClient.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="328" column="3" selection-start="6729" selection-end="6729" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-server/public/js/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="263" column="28" selection-start="6429" selection-end="6433" vertical-scroll-proportion="3.1571596" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game-server/app/servers/gate/handler/gateHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="34" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.0">
+        <state line="44" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/app/servers/chat/remote/chatRemote.js">
+    <entry file="file://$PROJECT_DIR$/web-server/public/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="59" selection-start="425" selection-end="429" vertical-scroll-proportion="0.0">
+        <state line="16" column="60" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-server/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="73" selection-start="948" selection-end="959" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game-server/app/servers/connector/handler/entryHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="150" selection-start="4283" selection-end="4283" vertical-scroll-proportion="0.0">
+        <state line="78" column="34" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/app/dao/roomDao.js">
+    <entry file="file://$PROJECT_DIR$/game-server/node_modules/pomelo/lib/common/service/channelService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="55" selection-start="653" selection-end="662" vertical-scroll-proportion="0.0">
+        <state line="61" column="18" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/node_modules/pomelo/lib/common/service/handlerService.js">
+    <entry file="file://$PROJECT_DIR$/game-server/app/util/dispatcher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
+        <state line="5" column="2" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/node_modules/pomelo/lib/server/server.js">
+    <entry file="file://$PROJECT_DIR$/game-server/app/servers/chat/remote/chatRemote.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="0" selection-start="5330" selection-end="5330" vertical-scroll-proportion="0.0">
+        <state line="18" column="49" selection-start="411" selection-end="419" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/node_modules/pomelo/lib/common/service/filterService.js">
+    <entry file="file://$PROJECT_DIR$/web-server/public/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0">
+        <state line="1" column="4" selection-start="11" selection-end="412" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/node_modules/pomelo/lib/filters/handler/timeout.js">
+    <entry file="file://$PROJECT_DIR$/web-server/public/js/testClient.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/app/util/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/app/dao/mysql/mysql.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/node_modules/mysql/lib/protocol/sequences/Sequence.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/node_modules/mysql/lib/protocol/sequences/Query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="0" selection-start="3553" selection-end="3553" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/app/dao/chatDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="134" selection-start="1019" selection-end="1138" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game-server/app/servers/chat/handler/chatHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="161" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.13365735">
+        <state line="78" column="103" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.53899086">
           <folding />
         </state>
       </provider>

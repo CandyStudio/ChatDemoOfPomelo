@@ -32,7 +32,7 @@ handler.query = function (msg, session, next) {
                 chatlog: res
             });
         }
-    })
+    });
 };
 
 /**

@@ -2,16 +2,16 @@
 	"development": {
 	 "host" : "127.0.0.1",
 		"port" : "3306",
-		"database" : "Chatdemo",
+		"database" : "Candy",
 		"user" : "root",
-		"password" : "123456"
+		"password" : "root"
 	},
 
 	"production": {
 	 "host" : "127.0.0.1",
 		"port" : "3306",
-		"database" : "Chatdemo",
+		"database" : "Candy",
 		"user" : "root",
-		"password" : "123456"
+		"password" : "root"
 	}
 }

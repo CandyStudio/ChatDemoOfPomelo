@@ -242,7 +242,7 @@ function room(roomName) {
 function registerEntry(username, password, role, cb) {
 	var route = 'gate.gateHandler.register';
 	pomelo.init({
-		host: '10.0.1.44',
+		host: '127.0.0.1',
 		port: 3014,
 		log: true
 	}, function() {
@@ -283,7 +283,7 @@ function registerEntry(username, password, role, cb) {
 function loginEntry(username, password, cb) {
 	var route = 'gate.gateHandler.login';
 	pomelo.init({
-		host: '10.0.1.44',
+		host: '127.0.0.1',
 		port: 3014,
 		log: true
 	}, function() {
@@ -300,6 +300,7 @@ function loginEntry(username, password, cb) {
 				var host = data.host;
 				var port = data.port;
 				var role = data.role;
+
 				hallEntry(userid, username, host, port, function(hcb) {
 					if (hcb == null) {
 						alert('大厅进入失败:' + hcb);
@@ -308,12 +309,13 @@ function loginEntry(username, password, cb) {
 						addRoomList(hcb);
 						globalUsername = username;
 						globalUserId = userid;
-					};
+					}
 				});
-			};
+			}
+            cb(data);
 		});
 	});
-};
+}
 
 
 
@@ -342,10 +344,10 @@ function hallEntry(userid, username, host, port, cb) {
 				cb(null);
 			} else {
 				cb(data.roomlist);
-			};
+			}
 		});
 	});
-};
+}
 
 /*
  *
@@ -554,3 +556,4 @@ function scrollDown(base) {
 	window.scrollTo(0, base);
 	$("#entry").focus();
 };
+
